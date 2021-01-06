@@ -1,0 +1,15 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "node": "current"
+      }
+    }],
+    ["@babel/preset-react", { "development": true }]
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-object-rest-spread"],
+    ["@babel/plugin-transform-runtime"],
+    ["@babel/plugin-proposal-export-default-from"]
+  ]
+}
