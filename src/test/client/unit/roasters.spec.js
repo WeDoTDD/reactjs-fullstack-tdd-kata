@@ -18,6 +18,6 @@ describe('Hello World', () => {
 		const fetchRoastersStub = async () => null;
 		const roasters = isolateComponent(<RoasterList getRoasters={fetchRoastersStub} />);
 		await Promise.resolve();
-		expect(roasters.content()).to.equal(null);
+		expect(roasters.content()).to.equal('no data found');
 	});
 });

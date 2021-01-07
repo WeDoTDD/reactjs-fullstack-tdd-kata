@@ -2,7 +2,7 @@ import { expect } from 'chai';
 import { sendQuery } from '../test.helpers';
 
 describe('Roasters', () => {
-	it.only('returns hello world for roasters', async () => {
+	it('returns hello world for roasters', async () => {
 		const query = {
 			query: `query { 
 				roasters
