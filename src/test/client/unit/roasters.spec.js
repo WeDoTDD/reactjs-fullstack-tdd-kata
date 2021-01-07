@@ -5,7 +5,7 @@ import React from 'react';
 
 describe('Roasters', () => {
 	it('shows hello world', async () => {
-		const responseData = 'Hello World';
+		const responseData = { roasters: 'Hello World' };
 		const fetchRoasters = async () => responseData;
 
 		const roasters = isolateComponent(<Roasters fetchRoasters={fetchRoasters} />);

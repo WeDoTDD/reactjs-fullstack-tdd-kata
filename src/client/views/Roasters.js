@@ -5,7 +5,7 @@ const Roasters = ({ fetchRoasters }) => {
 
 	useEffect(() => {
 		(async () => {
-			const roasters = await fetchRoasters();
+			const { roasters } = await fetchRoasters();
 			setRoasters(roasters);
 		})();
 	}, []);
