@@ -21,7 +21,11 @@ Implement the following features and show it in your React App.
 
 ### Feature #1: Shows the text "Hello World"
 ### Feature #2: Shows a list of Coffee Roasters
-### Feature #3: Filters list by Roaster Name
+### Feature #3: Ability to Filter list by Roaster Name
 ### Feature #4: Ability to reset/clear Roasters
 ### Feature #5: Shows a paged list of Roasters
+- ability to click and get to next page
+- ability to click and get to previous page
 ### Feature #6: Shows Roaster Detail Page
+- ability to select a roaster somehow to see their detail page
+- detail page should show a couple of roasts (e.g. Dark Roast, Light Roast)
