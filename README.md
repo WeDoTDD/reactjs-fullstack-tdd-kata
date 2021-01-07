@@ -6,7 +6,7 @@ ReactJS Hooks with GraphQL kata
 - Run tests: `yarn test`
 - Run GraphQL Service: `yarn start service`
 - Run front-end: `yarn start` 
-    - uses webpack dev server, and should automatically fire up the browser for you!
+    - uses [webpack dev server](https://webpack.js.org/configuration/dev-server), and should automatically fire up the browser for you!
     - you will _not_ see a build folder, it's in-memory.  If you really want to see a build folder show up, you can add `writeToDisk: true` under the `devServer` section
       
 
