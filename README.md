@@ -4,6 +4,7 @@ ReactJS Hooks with GraphQL kata
 ## Setup
 - `yarn`
 - Run tests: `yarn test`
+    - Tests are using [isolate-components](https://www.npmjs.com/package/isolate-components), [mocha](https://mochajs.org), and [chai](https://www.chaijs.com)
 - Run GraphQL Service: `yarn start service`
 - Run front-end: `yarn start` 
     - uses [webpack dev server](https://webpack.js.org/configuration/dev-server), and should automatically fire up the browser for you!
