@@ -5,8 +5,10 @@ import React from 'react';
 export { expect };
 
 describe('Hello World', () => {
-	it('shows hello world', () => {
-		const roasters = isolateComponent(<Roasters />);
-		expect(roasters.content()).to.contain('Hello World');
+	it('shows hello world', async () => {
+		const getRoastersStub = async () => 'Hello World';
+		const roasters = isolateComponent(<Roasters getRoasters={getRoastersStub} />);
+		await Promise.resolve();
+		expect(roasters.content()).to.equal('Hello World');
 	});
 });

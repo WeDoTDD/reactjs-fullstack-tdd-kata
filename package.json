@@ -1,0 +1,51 @@
+{
+  "name": "reactjs-fullstack-tdd-kata",
+  "version": "1.0.0",
+  "description": "ReactJS Hooks with GraphQL kata",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r @babel/register src/test/**/*.spec.js -r chai/register-expect  -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dschinkel/reactjs-fullstack-tdd-kata.git"
+  },
+  "author": "Dave Schinkel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dschinkel/reactjs-fullstack-tdd-kata/issues"
+  },
+  "homepage": "https://github.com/dschinkel/reactjs-fullstack-tdd-kata#readme",
+  "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/register": "^7.12.10",
+    "@babel/runtime": "^7.12.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.4.0",
+    "npm": "^6.14.10",
+    "react": "^17.0.1",
+    "superagent": "^6.1.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "chai": "^4.2.0",
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-watch": "^7.0.0",
+    "isolate-components": "^1.0.0",
+    "mocha": "^8.2.1",
+    "nock": "^13.0.5",
+    "prettier": "^2.2.1"
+  }
+}

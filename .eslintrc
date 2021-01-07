@@ -5,14 +5,12 @@
 			"plugin:react/recommended",
 			"plugin:import/errors",
 			"plugin:react/recommended",
-			"plugin:@typescript-eslint/recommended",
 			"plugin:import/errors",
 			"plugin:import/warnings",
 			"plugin:import/typescript",
 			"plugin:react-hooks/recommended"
 		],
 		"plugins": ["react"],
-		"parser":  "@typescript-eslint/parser",
 		"env": {
 			"mocha": true,
 			"browser": true
@@ -34,7 +32,7 @@
 			"no-useless-call": [2],
 			"react/no-danger": [0],
 			"react/jsx-indent-props": [0],
-			"react/jsx-filename-extension": [1, {"extensions": [".tsx"]}],
+			"react/jsx-filename-extension": [1, {"extensions": [".jsx"]}],
 			"react/jsx-indent": [0],
 			"react/jsx-tag-spacing": ["error", { "beforeSelfClosing": "always" }],
 			"react/jsx-sort-props": ["error", {"ignoreCase": false, "noSortAlphabetically": false}],
@@ -69,11 +67,8 @@
 			"react/no-find-dom-node": [1],
 			"ts-ignore": [0],
 			"no-string-refs": [0],
-			"@typescript-eslint/ban-ts-comment": [0],
 			"no-new": [0],
 			"no-trailing-spaces": [0],
-			"@typescript-eslint/no-unused-vars": [0],
-			"@typescript-eslint/explicit-module-boundary-types": [0],
 			"no-underscore-dangle": [0],
 			"no-mixed-operators": [0],
 			"consistent-return": [0],
@@ -82,11 +77,14 @@
 			"prefer-destructuring": [0],
 			"operator-linebreak": [0],
 			"camelcase": [0],
-			"@typescript-eslint/no-empty-function": [0],
 			"no-param-reassign": [0],
 			"no-unused-labels": [0],
 			"no-labels": [0],
 			"no-label-var": [0],
-			"no-unused-expressions": [0]
+			"no-unused-expressions": [0],
+            "import/newline-after-import": [0],
+            "eslint-disable-next-line": [0],
+            "no-return-await": [0],
+            "no-undef": [0]
 		}
 	}
