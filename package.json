@@ -4,8 +4,9 @@
   "description": "ReactJS Hooks with GraphQL kata",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
-    "test": "mocha -r @babel/register src/test/**/*.spec.js -r chai/register-expect  -w"
+    "test": "mocha -r @babel/register src/test/**/*.spec.{jsx,js} -r chai/register-expect -w"
   },
   "repository": {
     "type": "git",
@@ -13,9 +14,6 @@
   },
   "author": "Dave Schinkel",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dschinkel/reactjs-fullstack-tdd-kata/issues"
-  },
   "homepage": "https://github.com/dschinkel/reactjs-fullstack-tdd-kata#readme",
   "dependencies": {
     "@babel/cli": "^7.12.10",
@@ -28,7 +26,8 @@
     "express-graphql": "^0.12.0",
     "graphql": "^15.4.0",
     "npm": "^6.14.10",
-    "react": "^17.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "superagent": "^6.1.0"
   },
   "devDependencies": {
@@ -47,11 +46,15 @@
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-watch": "^7.0.0",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.3.0",
     "isolate-components": "^1.0.0",
     "mocha": "^8.2.1",
     "nock": "^13.0.5",
     "prettier": "^2.2.1",
     "supertest": "^6.0.1",
-    "webpack-dev-server": "^3.11.1"
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }

@@ -31,7 +31,7 @@
 			"no-useless-call": [2],
 			"react/no-danger": [0],
 			"react/jsx-indent-props": [0],
-			"react/jsx-filename-extension": [1, {"extensions": [".jsx"]}],
+			"react/jsx-filename-extension": [0, {"extensions": [".jsx"]}],
 			"react/jsx-indent": [0],
 			"react/jsx-tag-spacing": ["error", { "beforeSelfClosing": "always" }],
 			"react/jsx-sort-props": ["error", {"ignoreCase": false, "noSortAlphabetically": false}],

@@ -1,5 +1,5 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Roasters from './Views/Roasters';
+import Roasters from './views/Roasters';
 
 render(<Roasters />, document.getElementById('container'));
