@@ -12,7 +12,7 @@ const Roasters = (props) => {
 		fetchRoasters();
 	}, []);
 
-	return (roasters.length > 0 && <span data-test-id="roasters">{roasters}</span>) || null;
+	return (roasters && roasters.length > 0 && <span data-test-id="roasters">{roasters}</span>) || null;
 };
 
 export default Roasters;

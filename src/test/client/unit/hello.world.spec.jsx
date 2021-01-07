@@ -11,4 +11,11 @@ describe('Hello World', () => {
 		await Promise.resolve();
 		expect(roasters.content()).to.equal('Hello World');
 	});
+
+	it('shows nothing when no data present', async () => {
+		const getRoastersStub = async () => null;
+		const roasters = isolateComponent(<Roasters getRoasters={getRoastersStub} />);
+		await Promise.resolve();
+	  expect(roasters.content()).to.equal(null);
+	});
 });
