@@ -12,11 +12,12 @@ This kata shows an implementation, but please try to do it without looking at mi
 
 Of course use whatever you want (React Classes, Koa, express, Hapi, whatever suites your fancy)
 
-## Kata Features - ReactJS
+## Kata Features - ReactJS - Coffee Roasters
 Implement the following features and show it in your React App.
 
 - Front-end should call the backend to get the data
-- Implement it with Test Driven Development.
+- Implement it with Test Driven Development
+- If you don't like Coffee, tough luck
 
 
 ### Feature #1: Shows the text "Hello World"
