@@ -1,6 +1,10 @@
-import express from 'express';
-import { graphqlHTTP } from 'express-graphql';
-import { buildSchema } from 'graphql';
+// import express from 'express';
+// import { graphqlHTTP } from 'express-graphql';
+// import { buildSchema } from 'graphql';
+
+const express = require('express');
+const { graphqlHTTP } = require('express-graphql');
+const { buildSchema } = require('graphql');
 
 const schema = buildSchema(`
   type Query {
@@ -26,4 +30,4 @@ App.on('error', (err) => {
 		})
 	);
 
-export default App;
+module.exports = App;
