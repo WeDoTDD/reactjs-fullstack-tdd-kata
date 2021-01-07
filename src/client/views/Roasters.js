@@ -4,12 +4,11 @@ const Roasters = ({ fetchRoasters }) => {
 	const [roasters, setRoasters] = useState();
 
 	useEffect(() => {
-		const fetchData = async () => {
-			const { roasters } = await fetchRoasters();
+		(async () => {
+			const roasters = await fetchRoasters();
 			setRoasters(roasters);
-		};
-		fetchData();
-	});
+		})();
+	}, []);
 
 	return (<RoasterList data-test-id="roasterList" roasters={roasters} />);
 };
