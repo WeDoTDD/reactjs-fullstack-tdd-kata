@@ -19,7 +19,7 @@ Implement the following features and show it in your React App.
 - Implement it with Test Driven Development.
 
 
-### Feature #1: Shows the "Hello World"
+### Feature #1: Shows the text "Hello World"
 ### Feature #2: Shows a list of Coffee Roasters
 ### Feature #3: Filters list by Roaster Name
 ### Feature #4: Ability to reset/clear Roasters
