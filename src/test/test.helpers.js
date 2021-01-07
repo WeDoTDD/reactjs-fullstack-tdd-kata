@@ -1,7 +1,9 @@
-// const supertest = require('supertest');
+import App from '../server/api';
+
+const supertest = require('supertest');
 // require('dotenv/config');
 
-// const request = supertest(App);
+const request = supertest(App);
 
 /* export function createQuery(returnFields?: string) {
 	const query = `mutation CreateCrafter($crafter: CrafterInput){ 
@@ -39,6 +41,6 @@ if (process.env.NODE_ENV === 'development' || process.env.NODE_ENV === 'local' |
 }
 */
 
-/* export function sendQuery(query) {
+export function sendQuery(query) {
 	return request.post('/graphql').set('Accept', 'application/json').send(query);
-} */
+}
