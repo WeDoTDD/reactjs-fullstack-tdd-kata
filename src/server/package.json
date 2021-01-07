@@ -4,7 +4,7 @@
   "description": "ReactJS Hooks with GraphQL kata",
   "main": "index.js",
   "scripts": {
-    "start-service": "node --experimental-modules --optimize_for_size --no-warnings server.js"
+    "start-service": "node --no-warnings server.js"
   },
   "repository": {
     "type": "git",
