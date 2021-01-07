@@ -23,6 +23,7 @@ Implement the following features and show it in your React App.
 
 - Front-end should call the backend to get the data
 - Implement it with Test Driven Development
+- Hint: You can copy the feature names below, and literally use them as your very outside test names!
 - If you don't like Coffee, tough luck
 
 
