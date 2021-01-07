@@ -11,7 +11,7 @@ describe('Roaster Api', () => {
 		};
 		const query = {
 			query: `query { 
-				roasters {}
+				roasters
 			}`,
 		};
 		mockPostGraphQL(query, responseStub);

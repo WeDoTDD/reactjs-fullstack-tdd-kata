@@ -6,8 +6,9 @@
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
-    "start-service": "node --experimental-modules --optimize_for_size --no-warnings src/server/server.mjs",
-    "test": "mocha -r @babel/register src/test/**/*.spec.{jsx,js} -r chai/register-expect -w"
+    "start-service": "yarn --cwd src/server start-service",
+    "test": "mocha -r @babel/register src/test/**/*.spec.{jsx,js} -r chai/register-expect -w",
+    "kill-port": "lsof -i :4000 -t | xargs kill && pkill node"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "@babel/register": "^7.12.10",
     "@babel/runtime": "^7.12.5",
     "@types/node": "^14.14.20",
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-graphql": "^0.12.0",

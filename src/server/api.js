@@ -1,8 +1,5 @@
-// import express from 'express';
-// import { graphqlHTTP } from 'express-graphql';
-// import { buildSchema } from 'graphql';
-
 const express = require('express');
+const cors = require('cors');
 const { graphqlHTTP } = require('express-graphql');
 const { buildSchema } = require('graphql');
 
@@ -18,6 +15,7 @@ const root = {
 
 const App = express();
 App.options('/graphql');
+App.use(cors());
 App.on('error', (err) => {
 	console.log(err);
 })

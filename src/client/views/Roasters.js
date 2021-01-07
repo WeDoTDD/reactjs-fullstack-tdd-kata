@@ -1,23 +1,23 @@
 import React, { useEffect, useState } from 'react';
 
-const Roasters = (props) => {
-	const [roasters, setRoasters] = useState([]);
+const Roasters = ({ fetchRoasters }) => {
+	const [roasters, setRoasters] = useState();
 
 	useEffect(() => {
-		const fetchRoasters = async () => {
-			const { fechRoasters } = props;
-			const roasters = await fechRoasters();
+		const fetchData = async () => {
+			const { roasters } = await fetchRoasters();
 			setRoasters(roasters);
 		};
-		fetchRoasters();
-	}, []);
+		fetchData();
+	});
 
-	return <RoasterList data-test-id="roasters" roasters={roasters} />;
+	return (<RoasterList data-test-id="roasterList" roasters={roasters} />);
 };
 
-export function RoasterList(props) {
-	const { roasters } = props;
-	return (roasters && roasters.length > 0 && <span data-test-id="roasters">{roasters}</span>) || 'no data found';
+export function RoasterList({ roasters }) {
+	return (
+		<>{roasters && roasters.length > 0 && <span data-test-id="roasters">{roasters}</span>}</>
+	);
 }
 
 export default Roasters;

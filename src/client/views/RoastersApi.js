@@ -1,9 +1,11 @@
 import request from 'superagent';
 
+const url = 'http://localhost:4000/graphql';
+
 export async function fetchRoasters() {
 	const query = {
 		query: `query { 
-				roasters {}
+				roasters
 			}`,
 	};
 
@@ -13,6 +15,6 @@ export async function fetchRoasters() {
 
 
 async function sendRequest(query) {
-	const response = await request.post('http://localhost:4000/graphql').send(query);
+	const response = await request.post(url).send(query);
 	return response;
 }

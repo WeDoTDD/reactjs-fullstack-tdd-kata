@@ -5,19 +5,25 @@ import React from 'react';
 
 export { expect };
 
-describe('Hello World', () => {
+describe('Roasters', () => {
 	it('shows hello world', async () => {
-		const fechRoastersStub = async () => 'Hello World';
-		const roasters = isolateComponent(<Roasters getRoasters={fechRoastersStub} />)
-			.findOne('[data-test-id: roasters]');
+		const fetchRoastersStub = async () => {
+			data: {
+				roasters: 'Hello World';
+			}
+		};
+
+		const roasters = isolateComponent(<Roasters fetchRoasters={fetchRoastersStub} />);
 		await Promise.resolve();
-		expect(roasters.props.roasters).to.not.be.null;
+		const roasterList = roasters.findOne('[data-test-id=roasterList]');
+
+		expect(roasterList.props.roasters).to.equal('Hello World');
 	});
 
 	it('shows nothing when no data present', async () => {
 		const fetchRoastersStub = async () => null;
 		const roasters = isolateComponent(<RoasterList getRoasters={fetchRoastersStub} />);
 		await Promise.resolve();
-		expect(roasters.content()).to.equal('no data found');
+		expect(roasters.content()).to.equal('');
 	});
 });
