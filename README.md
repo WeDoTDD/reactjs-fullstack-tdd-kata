@@ -24,6 +24,4 @@ Implement the following features and show it in your React App.
 ### Feature #3: Filters list by Roaster Name
 ### Feature #4: Ability to reset/clear Roasters
 ### Feature #5: Shows a paged list of Roasters
-- (forces us to use stuff like JS filter, multiple calls to backend, links to each page)
 ### Feature #6: Shows Roaster Detail Page
-- (forces us to setup/routing, child detail component, etc.)
