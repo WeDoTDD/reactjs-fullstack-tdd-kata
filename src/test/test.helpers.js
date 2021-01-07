@@ -1,9 +1,9 @@
 // const supertest = require('supertest');
-require('dotenv/config');
+// require('dotenv/config');
 
 // const request = supertest(App);
 
-export function createQuery(returnFields?: string) {
+/* export function createQuery(returnFields?: string) {
 	const query = `mutation CreateCrafter($crafter: CrafterInput){ 
 				createCrafter(crafter: $crafter){
 					${returnFields} 
@@ -11,17 +11,18 @@ export function createQuery(returnFields?: string) {
 			}`;
 
 	return query;
-}
+} */
 
-export async function sendGraphqlRequest(query: string, crafterStub) {
+/* export async function sendGraphqlRequest(query: string, crafterStub) {
 	const queryRequest = {
 		query: query,
 		variables: { crafter: crafterStub },
 	};
 	// const response = sendQuery(queryRequest);
 	// return response;
-}
+} */
 
+/*
 export async function addCraftersGraphQL(craftersStub, fieldToReturn) {
 	for (const crafter of craftersStub) {
 		const query = createQuery(fieldToReturn);
@@ -36,7 +37,8 @@ if (process.env.NODE_ENV === 'development' || process.env.NODE_ENV === 'local' |
 } else {
 	url = process.env.GRAPHQLURL;
 }
+*/
 
-/*export function sendQuery(query) {
+/* export function sendQuery(query) {
 	return request.post('/graphql').set('Accept', 'application/json').send(query);
-}*/
+} */

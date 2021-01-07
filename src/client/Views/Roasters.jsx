@@ -5,14 +5,19 @@ const Roasters = (props) => {
 
 	useEffect(() => {
 		const fetchRoasters = async () => {
-			const { getRoasters } = props;
-			const roasters = await getRoasters();
+			const { fechRoasters } = props;
+			const roasters = await fechRoasters();
 			setRoasters(roasters);
 		};
 		fetchRoasters();
 	}, []);
 
-	return (roasters && roasters.length > 0 && <span data-test-id="roasters">{roasters}</span>) || null;
+	return <RoasterList data-test-id="roasters" roasters={roasters} />;
 };
+
+export function RoasterList(props) {
+	const { roasters } = props;
+	return (roasters && roasters.length > 0 && <span data-test-id="roasters">{roasters}</span>) || null;
+}
 
 export default Roasters;
