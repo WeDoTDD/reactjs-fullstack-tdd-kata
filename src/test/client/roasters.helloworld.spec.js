@@ -3,7 +3,7 @@ import { isolateComponent } from 'isolate-components';
 import Roasters, { RoasterList } from '../../client/views/Roasters';
 import React from 'react';
 
-describe('Roasters', () => {
+describe('Roasters - Hello World', () => {
 	it('shows hello world', async () => {
 		const responseData = { roasters: 'Hello World' };
 		const fetchRoasters = async () => responseData;
