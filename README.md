@@ -2,7 +2,7 @@
 ReactJS Hooks with GraphQL kata
 
 ## 🪛 Setup
-- `yarn`
+- Run `yarn` - install npm modules
 - Run *tests*: `yarn test`
     - Tests are using [isolate-components](https://www.npmjs.com/package/isolate-components), [mocha](https://mochajs.org), and [chai](https://www.chaijs.com)
 - Run *GraphQL Service*: `yarn start service`
