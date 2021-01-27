@@ -28,7 +28,7 @@ Implement the following full-stack features.
 - Hint: You can copy the feature names below, and literally use them as your very outside test names!
 - If you don't like Coffee, tough luck
 
-### 📜 Client (front-end) Slices
+### 📜 End-to-End Slices
 #### Feature #1: Shows the text "Hello World"
 #### Feature #2: Shows a list of Coffee Roasters
 #### Feature #3: Ability to reset/clear Roasters
