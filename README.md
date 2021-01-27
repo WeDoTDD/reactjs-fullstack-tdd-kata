@@ -12,7 +12,7 @@ ReactJS Hooks with GraphQL kata
 ## Description
 This Kata is set up initially to stretch your skills by working with React Hooks and GraphQL.
 
-Of course, if you don't like React Hooks, you forked it, so use whatever you want (React Classes, Koa, express, Hapi, whatever suites your fancy).  Just note that the [isolate-components](https://github.com/davidmfoley/isolate-components) library which is setup in this repo, is for testing React Hooks specifically.
+If you prefer something other than GraphQL, well you forked it, do whatever you want!
 
 ## Tests
 
@@ -20,7 +20,7 @@ Of course, if you don't like React Hooks, you forked it, so use whatever you wan
 - [isolate-components](https://www.npmjs.com/package/isolate-components): for those who insist on having mount/render scoped tests, it has the ability to create very focused [integrated tests](https://vimeo.com/80533536).  Instead of mounting the entire tree, you can render specific children in a React tree if desired which is really neat.
 
 ## Kata Features - ReactJS - Coffee Roasters
-Implement the following full-stack features.  If you don't like Coffee, tough luck
+Implement the following full-stack features.  *If you don't like Coffee, tough luck!*
 
 #### 🖥 Technical Requirements:
 - Front-end should call the backend to get the data
