@@ -34,8 +34,8 @@ Implement the following full-stack features.
 #### Feature #3: Ability to Filter list by Roaster Name
 #### Feature #4: Ability to reset/clear Roasters
 #### Feature #5: Shows a paged list of Roasters
-- ability to click and get to next page
-- ability to click and get to previous page
-#### Feature #6: Shows Roaster Detail Page
+#### Feature #6: ability to go to next page
+#### Feature #7: ability to go to previous page
+#### Feature #8: Shows Roaster Detail Page
 - ability to select a roaster somehow to see their detail page
 - detail page should show a couple of roasts (e.g. Dark Roast, Light Roast)
