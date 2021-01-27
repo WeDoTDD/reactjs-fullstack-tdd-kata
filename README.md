@@ -14,6 +14,8 @@ This Kata is set up initially to stretch your skills by working with React Hooks
 
 If you prefer something other than GraphQL, well you forked it, do whatever you want!
 
+I will be adding more to this, check out the [TODOs](https://github.com/dschinkel/reactjs-fullstack-tdd-kata/projects/1)
+
 ## Tests
 
 - Initial Libraries Used: [isolate-components](https://www.npmjs.com/package/isolate-components), [mocha](https://mochajs.org), [chai](https://www.chaijs.com), and [supertest](https://github.com/visionmedia/supertest)
