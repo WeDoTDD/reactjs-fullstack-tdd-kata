@@ -1,14 +1,6 @@
 # reactjs-fullstack-tdd-kata
 TDD some features using React Hooks and GraphQL
 
-## 🪛 Setup
-- Run `yarn` - install npm modules
-- Run *tests*: `yarn test`
-- Run *GraphQL Service*: `yarn start service`
-- Run *front-end*: `yarn start` 
-    - uses [webpack dev server](https://webpack.js.org/configuration/dev-server), and should automatically fire up the browser for you!
-    - you will _not_ see a build folder, it's in-memory.  If you really want to see a build folder show up, you can add `writeToDisk: true` under the `devServer` section
-    
 ## Description
 This Kata is set up initially to stretch your skills by working with React Hooks, GraphQL, and Test Driven Development.
 
@@ -17,6 +9,14 @@ This Kata is set up initially to stretch your skills by working with React Hooks
 - No, **TypeScript** is _not_ setup, this is a simple kata.  Add that setup yourself 😎
 - **_If you're ever stuck on this Kata_**, feel free to Join the [WeDoTDD.com Slack](https://join.slack.com/t/wedotdd/shared_invite/zt-ladr0ati-rD4bNNEx_Uu1v0pZsxZDNQ) and well give you some pointers on it!
 
+## 🪛 Setup
+- Run `yarn` - install npm modules
+- Run *tests*: `yarn test`
+- Run *GraphQL Service*: `yarn start service`
+- Run *front-end*: `yarn start` 
+    - uses [webpack dev server](https://webpack.js.org/configuration/dev-server), and should automatically fire up the browser for you!
+    - you will _not_ see a build folder, it's in-memory.  If you really want to see a build folder show up, you can add `writeToDisk: true` under the `devServer` section
+    
 ## Tests
 
 - Initial Libraries Used: [isolate-components](https://www.npmjs.com/package/isolate-components), [mocha](https://mochajs.org), [chai](https://www.chaijs.com), and [supertest](https://github.com/visionmedia/supertest)
