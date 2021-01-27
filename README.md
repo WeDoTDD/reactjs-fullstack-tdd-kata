@@ -16,7 +16,7 @@ This Kata is set up initially to stretch your skills by working with React Hooks
 Of course, if you don't like React Hooks, you forked it, so use whatever you want (React Classes, Koa, express, Hapi, whatever suites your fancy).  Just note that the [isolate-components](https://github.com/davidmfoley/isolate-components) library which is setup in this repo, is for testing React Hooks specifically.
 
 ## Kata Features - ReactJS - Coffee Roasters
-Implement the following features and show it in your React App.
+Implement the following full-stack features.
 
 #### 🖥 Technical Requirements:
 - Front-end should call the backend to get the data
