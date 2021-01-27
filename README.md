@@ -1,5 +1,5 @@
 # reactjs-fullstack-tdd-kata
-ReactJS Hooks with GraphQL kata
+TDD some features using React Hooks and GraphQL
 
 ## 🪛 Setup
 - Run `yarn` - install npm modules
