@@ -31,8 +31,8 @@ Implement the following full-stack features.
 ### 📜 Client (front-end) Slices
 #### Feature #1: Shows the text "Hello World"
 #### Feature #2: Shows a list of Coffee Roasters
-#### Feature #3: Ability to Filter list by Roaster Name
-#### Feature #4: Ability to reset/clear Roasters
+#### Feature #3: Ability to reset/clear Roasters
+#### Feature #4: Ability to Filter list by Roaster Name
 #### Feature #5: Shows a *paged* list of Coffee Roasters
 #### Feature #6: Ability to go to next page
 #### Feature #7: Ability to go to previous page
