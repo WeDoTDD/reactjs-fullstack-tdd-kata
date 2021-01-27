@@ -1,6 +1,4 @@
 # reactjs-fullstack-tdd-kata
-TDD some features using React Hooks and GraphQL
-
 ## Description
 This Kata is set up initially to stretch your skills by working with React Hooks, GraphQL, and Test Driven Development.
 
