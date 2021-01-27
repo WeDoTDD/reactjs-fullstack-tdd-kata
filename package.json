@@ -1,7 +1,7 @@
 {
   "name": "reactjs-fullstack-tdd-kata",
   "version": "1.0.0",
-  "description": "ReactJS Hooks with GraphQL kata",
+  "description": "ReactJS Hooks with GraphQL TDD kata",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",

@@ -10,7 +10,7 @@ TDD some features using React Hooks and GraphQL
     - you will _not_ see a build folder, it's in-memory.  If you really want to see a build folder show up, you can add `writeToDisk: true` under the `devServer` section
     
 ## Description
-This Kata is set up initially to stretch your skills by working with React Hooks and GraphQL.
+This Kata is set up initially to stretch your skills by working with React Hooks, GraphQL, and Test Driven Development.
 
 - If you prefer something other than GraphQL, well you forked it, do whatever you want!
 - I will be adding more to this, check out the [TODOs](https://github.com/dschinkel/reactjs-fullstack-tdd-kata/projects/1)
