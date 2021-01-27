@@ -1,6 +1,6 @@
 import { expect } from 'chai';
-import { mockPostGraphQL } from '../../test.doubles';
-import { fetchRoasters } from '../../../client/Views/RoastersApi';
+import { mockPostGraphQL } from '../../../test.doubles';
+import { fetchRoasters } from '../../../../client/views/RoastersApi';
 
 describe('Roaster Api', () => {
 	it('fetches roaster', async () => {

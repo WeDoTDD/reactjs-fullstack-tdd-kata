@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { isolateComponent } from 'isolate-components';
-import Roasters, { RoasterList } from '../../../client/views/Roasters';
+import Roasters, { RoasterList } from '../../../../client/views/Roasters';
 import React from 'react';
 
 describe('Roasters', () => {
