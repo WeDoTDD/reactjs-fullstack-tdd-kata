@@ -30,7 +30,7 @@ Implement the following full-stack features.  *If you don't like Coffee, tough l
 - Hint: You can copy the feature names below, and literally use them as your very outside test names!
 
 ### 📜 End-to-End Slices
-#### Feature #1: Shows the text "Hello World"
+#### ~~Feature #1: Shows the text "Hello World"~~   *Done*
 #### Feature #2: Shows a list of Coffee Roasters
 #### Feature #3: Ability to reset/clear Roasters
 #### Feature #4: Ability to Filter list by Roaster Name
