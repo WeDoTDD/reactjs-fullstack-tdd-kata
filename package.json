@@ -7,7 +7,7 @@
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
     "start-service": "yarn --cwd src/server start-service",
-    "test": "mocha -r @babel/register src/test/**/*.spec.{jsx,js} -r chai/register-expect -w",
+    "test": "mocha -r @babel/register src/test/**/*.spec.{js} -r chai/register-expect -w",
     "kill-port": "lsof -i :4000 -t | xargs kill && pkill node"
   },
   "repository": {
