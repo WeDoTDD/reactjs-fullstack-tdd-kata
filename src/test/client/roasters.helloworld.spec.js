@@ -4,7 +4,7 @@ import Roasters, { RoasterList } from '../../client/views/Roasters';
 import React from 'react';
 
 describe('Roasters - Hello World', () => {
-	it('shows hello world', async () => {
+	it('Shows the text "Hello World"', async () => {
 		const responseData = { roasters: 'Hello World' };
 		const fetchRoasters = async () => responseData;
 
