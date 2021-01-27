@@ -35,11 +35,11 @@ Implement the following full-stack features.  *If you don't like Coffee, tough l
 ### 📜 End-to-End Slices
 #### ~~Feature #1: Shows the text "Hello World"~~   *Done*
 #### Feature #2: Shows a list of Coffee Roasters
-#### Feature #3: Ability to reset/clear Roasters
-#### Feature #4: Ability to Filter list by Roaster Name
+#### Feature #3: Clears Roasters
+#### Feature #4: Filters list by Roaster Name
 #### Feature #5: Shows a *paged* list of Coffee Roasters
-#### Feature #6: Ability to go to next page
-#### Feature #7: Ability to go to previous page
+#### Feature #6: Goes to next page of roasters list
+#### Feature #7: Goes to next previous of roasters list
 #### Feature #8: Shows Roaster Detail Page
 - ability to select a roaster somehow to see their detail page
 - detail page should show a couple of roasts (e.g. Dark Roast, Light Roast)
