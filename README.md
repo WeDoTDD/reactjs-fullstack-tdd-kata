@@ -21,7 +21,7 @@ This Kata is set up initially to stretch your skills by working with React Hooks
 - Initial Libraries Used: [isolate-components](https://www.npmjs.com/package/isolate-components), [mocha](https://mochajs.org), [chai](https://www.chaijs.com), and [supertest](https://github.com/visionmedia/supertest)
 - [isolate-components](https://www.npmjs.com/package/isolate-components): for those who insist on having mount/render scoped tests, it has the ability to create very focused [integrated tests](https://vimeo.com/80533536).  Instead of mounting the entire tree, you can render specific children in a React tree if desired which is really neat.
 
-## Kata Features - "Coffee Roasters Website"
+## Kata Features for "Coffee Roasters Website"
 Implement the following full-stack features.  *If you don't like Coffee, tough luck!*
 
 #### 🖥 Technical Requirements:
