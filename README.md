@@ -25,7 +25,7 @@ Implement the following features and show it in your React App.
 - If you don't like Coffee, tough luck
 
 ### Features
-####Feature #1: Shows the text "Hello World"
+#### Feature #1: Shows the text "Hello World"
 #### Feature #2: Shows a list of Coffee Roasters
 #### Feature #3: Ability to Filter list by Roaster Name
 #### Feature #4: Ability to reset/clear Roasters
