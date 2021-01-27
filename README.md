@@ -3,6 +3,7 @@
 This Kata is set up initially to stretch your skills by working with React Hooks, GraphQL, and Test Driven Development.
 
 - If you prefer something other than GraphQL, well you forked it, do whatever you want!
+    - *you can still use [supertest](https://github.com/visionmedia/supertest) to drive outside tests for REST or other APIs*
 - I will be adding more to this, check out the [TODOs](https://github.com/dschinkel/reactjs-fullstack-tdd-kata/projects/1)
 - No, **TypeScript** is _not_ setup, this is a simple kata.  Add that setup yourself 😎
 - **_If you're ever stuck on this Kata_**, feel free to Join the [WeDoTDD.com Slack](https://join.slack.com/t/wedotdd/shared_invite/zt-ladr0ati-rD4bNNEx_Uu1v0pZsxZDNQ) and well give you some pointers on it!
