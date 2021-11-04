@@ -33,8 +33,10 @@ This Kata is set up initially to stretch your skills by working with React Hooks
       - no need to run the graphQL service to run tests.
       - front-end tests do not rely on running the site or on webdriver
 
-☕️ ☕️ ☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️
+☕
 ## Kata Requirements for "Coffee Roasters Website"
+️ ☕️ ☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️
+
 Implement the following full-stack features.  *If you don't like Coffee, tough luck!*
 
 #### 🖥 Technical Requirements:
