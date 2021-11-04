@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { isolateComponent } from 'isolate-components';
-import Roasters, { RoasterList } from '../../../client/views/Roasters';
+import Roasters, { RoasterList } from '../../../client/isolate-component-mocha/views/Roasters';
 import React from 'react';
 
 describe('Roasters - Hello World', () => {
@@ -10,15 +10,19 @@ describe('Roasters - Hello World', () => {
 
 		const roasters = isolateComponent(<Roasters fetchRoasters={fetchRoasters} />);
 		await Promise.resolve();
-		const roasterList = roasters.findOne('[data-test-id=roaster-list]');
+		roasters.inline('RoasterList')
+		const roasterList = roasters.findOne('[data-test-id=roasters]');
 
-		expect(roasterList.props.roasters).to.equal('Hello World');
+		expect(roasterList.content()).to.equal('Hello World');
 	});
 
-	it('shows nothing when no data present', async () => {
+	it('shows nothing when none exist', async () => {
 		const fetchRoasters = async () => null;
+
 		const roasters = isolateComponent(<RoasterList getRoasters={fetchRoasters} />);
 		await Promise.resolve();
-		expect(roasters.content()).to.equal('');
+		const roasterList = roasters.exists('[data-test-id=roasters]');
+
+		expect(roasterList).to.be.false;
 	});
 });

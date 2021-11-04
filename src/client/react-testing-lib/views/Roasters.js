@@ -10,12 +10,12 @@ const Roasters = ({ fetchRoasters }) => {
 		})();
 	}, []);
 
-	return (<span data-testid="roaster-list">{roasters}</span>);
+	return (<RoasterList roasters={roasters}>{roasters}</RoasterList>);
 };
 
 export function RoasterList({ roasters }) {
 	return (
-		<>{roasters && roasters.length > 0 && <span data-test-id="roasters">{roasters}</span>}</>
+		<>{roasters && roasters.length > 0 && <span data-testid="roasters">{roasters}</span>}</>
 	);
 }
 
