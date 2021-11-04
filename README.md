@@ -47,8 +47,8 @@ Implement the following full-stack features.  *If you don't like Coffee, tough l
 #### Feature #3: Clears Roasters
 #### Feature #4: Filters list by Roaster Name
 #### Feature #5: Shows a *paged* list of Coffee Roasters
-#### Feature #6: Goes to next page of roasters list
-#### Feature #7: Goes to next previous of roasters list
-#### Feature #8: Shows Roaster Detail Page
+#### Feature #6: Goes to next paged list of roasters
+#### Feature #7: Goes to previous paged list of roasters list
+#### Feature #8: Shows Roaster Details
 - ability to select a roaster somehow to see their detail page
 - detail page should show a couple of roasts (e.g. Dark Roast, Light Roast)
