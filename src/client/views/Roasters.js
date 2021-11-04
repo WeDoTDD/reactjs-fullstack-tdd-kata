@@ -10,7 +10,7 @@ const Roasters = ({ fetchRoasters }) => {
 		})();
 	}, []);
 
-	return (<RoasterList data-test-id="roasterList" roasters={roasters} />);
+	return (<span data-testid="roaster-list">{roasters}</span>);
 };
 
 export function RoasterList({ roasters }) {
