@@ -8,7 +8,7 @@ This Kata is set up initially to stretch your skills by working with React Hooks
 
 ## 🪛 Setup
 - Run `yarn` - install npm modules
-- Run *tests*: `yarn test`
+- Run *tests*: scripts are in package.json, look there
 
 #### Note:
 - No, **TypeScript** is _not_ setup, this is a simple kata.  Add that setup yourself 😎
