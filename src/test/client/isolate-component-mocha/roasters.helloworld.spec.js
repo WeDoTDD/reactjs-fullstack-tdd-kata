@@ -16,7 +16,7 @@ describe('Roasters - Hello World', () => {
 		expect(roasterList.content()).to.equal('Hello World');
 	});
 
-	it('shows nothing when none exist', async () => {
+	it('shows no roasters when none exist', async () => {
 		const fetchRoasters = async () => null;
 
 		const roasters = isolateComponent(<RoasterList getRoasters={fetchRoasters} />);

@@ -19,7 +19,7 @@ describe('Roasters - Hello World', () => {
 		});
 	});
 
-	it('shows nothing when none exist', async () => {
+	it('shows no roasters when none exist', async () => {
 		const fetchRoasters = async () => null;
 		const roasters = render(<RoasterList getRoasters={fetchRoasters} />);
 
