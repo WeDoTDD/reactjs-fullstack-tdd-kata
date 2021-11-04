@@ -6101,17 +6101,17 @@ isobject@^3.0.0, isobject@^3.0.1:
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
 
-isolate-components@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/isolate-components/-/isolate-components-1.0.0.tgz#4c7ad624975c81e83d9d8a72328269f30c45bf9d"
-  integrity sha512-+7D+HB2rrZRLOtq01PoicDdm7Z2DJEgFn6XUWVWCposTU/DmG/YgKOrGFTcWhp5Psqeu3SrTIPc0SLOpIr8JJw==
+isolate-components@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/isolate-components/-/isolate-components-1.4.0.tgz#324082d596f8224b8e027b1b94a46fa13471ab57"
+  integrity sha512-kO99YeQIXZyDwR8wn45M7zFvuKVxCOl71cqCCwZ9Xzx0Ff33d3Mgd7jghkv5KpoBuBt6KkPUcubJczlC+G3+cQ==
   dependencies:
-    isolate-hooks "1.1.6"
+    isolate-hooks "^1.5.0"
 
-isolate-hooks@1.1.6:
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/isolate-hooks/-/isolate-hooks-1.1.6.tgz#15255c028c8e6ca1b5faa4f0fe0ade5eef7ceeae"
-  integrity sha512-q/3TT2M6TNGxs8z85mf9pRNUvY+xq5TW0ay39Gru3mwBtk8rP4lUN3IHmyk6oe3CMraLHazgSQ5YLR2D0uZdzw==
+isolate-hooks@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/isolate-hooks/-/isolate-hooks-1.5.0.tgz#232d98ea3fb6393210a72965d67f4218e1efed59"
+  integrity sha512-IRGJvwngCuWr1FadRpI9L4V2HS+vR2pUK6O3hcNBlk3Mk/zM6VytSfV8Rpcb3/duxJHy+JUVHW7Yk4BPK4FrVA==
 
 isstream@~0.1.2:
   version "0.1.2"

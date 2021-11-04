@@ -3,26 +3,31 @@
  */
 import { expect } from "@jest/globals";
 import { render, waitFor } from "@testing-library/react";
-import Roasters, { RoasterList } from '../../../client/views/Roasters';
 import React from 'react';
+import Roasters, { RoasterList } from '../../../client/react-testing-lib/views/Roasters';
 
 describe('Roasters - Hello World', () => {
-	fit('shows the text "Hello World"', async () => {
+	it('shows the text "Hello World"', async () => {
 		const roastersData = { roasters: 'Hello World' };
 		const fetchRoasters = async () => roastersData;
 
 		let roasterList;
 		const roasters = render(<Roasters fetchRoasters={fetchRoasters} />);
 		await waitFor(() => {
-			roasterList = roasters.queryByTestId("roaster-list");
+			roasterList = roasters.queryByTestId("roasters");
+			expect(roasterList.innerHTML).toEqual('Hello World');
 		});
-
-		expect(roasterList.innerHTML).toEqual('Hello World');
 	});
 
-	it('shows nothing when no data present', async () => {
+	it('shows nothing when none exist', async () => {
 		const fetchRoasters = async () => null;
 		const roasters = render(<RoasterList getRoasters={fetchRoasters} />);
-		expect(roasters.innerHTML).toBeUndefined();
+
+		let roasterList;
+		await waitFor(() => {
+			roasterList = roasters.queryByTestId("roasters");
+		});
+
+		expect(roasterList).toBeNull();
 	});
 });
