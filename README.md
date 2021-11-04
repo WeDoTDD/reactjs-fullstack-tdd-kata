@@ -21,11 +21,17 @@ This Kata is set up initially to stretch your skills by working with React Hooks
     - you will _not_ see a build folder, it's in-memory.  If you really want to see a build folder show up, you can add `writeToDisk: true` under the `devServer` section
     
 ## Tests
+- You can use [React Testing Library](https://testing-library.com) or a newer, better lib called [isolate-components](https://www.npmjs.com/package/isolate-components)
+  - Note: Will be adding [enzyme](https://enzymejs.github.io/enzyme) examples soon
+- Testing frameworks already setup for you [mocha](https://mochajs.org), [chai](https://www.chaijs.com), and [supertest](https://github.com/visionmedia/supertest)
 
-- Initial Libraries Used: [isolate-components](https://www.npmjs.com/package/isolate-components), [mocha](https://mochajs.org), [chai](https://www.chaijs.com), and [supertest](https://github.com/visionmedia/supertest)
-- [isolate-components](https://www.npmjs.com/package/isolate-components): for those who insist on having mount/render scoped tests, it has the ability to create very focused [integrated tests](https://vimeo.com/80533536).  Instead of mounting the entire tree, you can render specific children in a React tree if desired which is really neat
-- Initial server spec for "Hello World" is directly testing the service contract.  No need to run the service.  _Going forward, you should also TDD with lower-level micro tests on core business behavior as the features evolve_
-- You do not need to run the graphQL service or front-end in order to run tests.  Tests are headless and test the code directly without running the real thing
+####Other
+- Initial **server-side** spec for "Hello World" is directly testing the service contract
+
+  - Tests are isolated & headless
+    - So there no need to run real the thing just to write and run your tests
+      - no need to run the graphQL service to run tests.
+      - front-end tests do not rely on running the site or on webdriver
 
 ## Kata Features for "Coffee Roasters Website"
 Implement the following full-stack features.  *If you don't like Coffee, tough luck!*
