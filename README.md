@@ -6,7 +6,7 @@ This Kata is set up initially to stretch your skills by working with React Hooks
     - *you can still use [supertest](https://github.com/visionmedia/supertest) to drive outside tests for REST or other APIs*
 - I will be adding more to this, check out the [TODOs](https://github.com/dschinkel/reactjs-fullstack-tdd-kata/projects/1)
 
-## 🪛 Setup
+## 🪛 Initial Setup
 - Run `yarn` - install npm modules
 - Run *tests*: scripts are in `package.json`, look there
 
@@ -25,15 +25,14 @@ This Kata is set up initially to stretch your skills by working with React Hooks
   - Note: Will be adding [enzyme](https://enzymejs.github.io/enzyme) examples soon
 - Testing frameworks already setup for you [mocha](https://mochajs.org), [chai](https://www.chaijs.com), and [supertest](https://github.com/visionmedia/supertest)
 
-####Other
+####Other Info
 - Initial **server-side** spec for "Hello World" is directly testing the service contract
 
   - Tests are isolated & headless
     - So there no need to run real the thing just to write and run your tests
       - no need to run the graphQL service to run tests.
       - front-end tests do not rely on running the site or on webdriver
-
-☕
+      
 ## Kata Requirements for "Coffee Roasters Website" ☕️
 
 Implement the following full-stack features.  *If you don't like Coffee, tough luck!*
