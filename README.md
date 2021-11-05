@@ -16,8 +16,8 @@ If on a `Windows PC`:
 - Install yarn somehow 🤣
 
 Finally (from cmd line):
-- install node modules: `yarn`
-- Run *tests*: scripts are in `package.json`, look there
+- **install node modules**: `yarn`
+- **Run the tests**: scripts are in `package.json`, look there
 
 #### Note:
 - No, **TypeScript** is _not_ setup, this is a simple kata.  Add that setup yourself 😎
