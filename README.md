@@ -14,7 +14,10 @@ This Kata is set up initially to stretch your skills by working with React Hooks
 - No, **TypeScript** is _not_ setup, this is a simple kata.  Add that setup yourself 😎
 - **_If you're ever stuck on this Kata_**, feel free to Join the [WeDoTDD.com Slack](https://join.slack.com/t/wedotdd/shared_invite/zt-ladr0ati-rD4bNNEx_Uu1v0pZsxZDNQ) and well give you some pointers on it!
 
-#### See it in action *(not required for tests)*
+## 🏃🏻‍♀️ Run the Website
+*(not required during TDD)*
+
+#### See it in action 
 - Run *GraphQL Service*: `yarn start service`
 - Run *front-end*: `yarn start` 
     - uses [webpack dev server](https://webpack.js.org/configuration/dev-server), and should automatically fire up the browser for you!
