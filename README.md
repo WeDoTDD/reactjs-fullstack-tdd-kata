@@ -54,10 +54,9 @@ Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` partitioni
 Implement the following features below.  
 
 #### 🖥 Requirements
-- You are to **implement** the **Feature Slices** below
-  - Implement it with Test Driven Development
-  - Front-end should call the backend to get the data -OR- implement it without a backend (use test data and stubs)
-  - Hint: You can copy the feature names below, and literally use them as your very outside test names!
+- Implement it with Test Driven Development
+- Front-end should call the backend to get the data -OR- implement it without a backend (use test data and stubs)
+- Hint: You can copy the feature names below, and literally use them as your very outside test names!
 
 ### 📜 Feature Slices
 #### ~~Feature #1: Shows the text "Hello World"~~   `Done for you`
