@@ -49,8 +49,9 @@ Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` partitioni
       - front-end tests do not rely on running the site or on webdriver
       
 ## Kata Requirements for "Coffee Roasters Website" ☕️
+*If you don't like Coffee, tough luck!*
 
-Implement the following features.  *If you don't like Coffee, tough luck!*
+Implement the following features.  
 
 #### 🖥 Requirements
 - You are to **implement** the **Feature Slices** below
