@@ -45,13 +45,13 @@ Implement the following full-stack features.  *If you don't like Coffee, tough l
   - Hint: You can copy the feature names below, and literally use them as your very outside test names!
 
 ### 📜 Feature Slices
-#### ~~Feature #1: Shows the text "Hello World"~~   *Done*
-#### Feature #2: Shows a list of Coffee Roasters
-#### Feature #3: Clears Roasters
-#### Feature #4: Filters list by Roaster Name
-#### Feature #5: Shows a *paged* list of Coffee Roasters
-#### Feature #6: Goes to next paged list of roasters
-#### Feature #7: Goes to previous paged list of roasters list
-#### Feature #8: Shows Roaster Details
+#### `~~Feature #1: Shows the text "Hello World"~~   *Done*
+#### `Feature #2`: Shows a list of Coffee Roasters
+#### `Feature #3`: Clears Roasters
+#### `Feature #4`: Filters list by Roaster Name
+#### `Feature #5`: Shows a *paged* list of Coffee Roasters
+#### `Feature #6`: Goes to next paged list of roasters
+#### `Feature #7`: Goes to previous paged list of roasters list
+#### `Feature #8`: Shows Roaster Details
 - ability to select a roaster somehow to see their detail page
 - detail page should show a couple of roasts (e.g. Dark Roast, Light Roast)
