@@ -31,8 +31,8 @@ This Kata is set up initially to stretch your skills by working with [React Hook
   - Don't forget about the `GraphiQL tool`, go to `http://localhost:4000/graphql`
 - Run *front-end*: `yarn start` 
     - Note: uses [webpack dev server](https://webpack.js.org/configuration/dev-server)
-## Tests
     - GraphQL Service ☝️ must be running
+## Tests
     
 **Frameworks** already setup for you: [mocha](https://mochajs.org), [chai](https://www.chaijs.com), [jest](https://jestjs.io/), and [supertest](https://github.com/visionmedia/supertest)
 
