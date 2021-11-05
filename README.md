@@ -50,7 +50,7 @@ Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` partitioni
       
 ## Kata Requirements for "Coffee Roasters Website" ☕️
 
-Implement the following full-stack features.  *If you don't like Coffee, tough luck!*
+Implement the following features.  *If you don't like Coffee, tough luck!*
 
 #### 🖥 Requirements
 - You are to **implement** the **Feature Slices** below
