@@ -20,9 +20,7 @@ This Kata is set up initially to stretch your skills by working with React Hooks
 #### See it in action 
 - Run *GraphQL Service*: `yarn start service`
 - Run *front-end*: `yarn start` 
-    - uses [webpack dev server](https://webpack.js.org/configuration/dev-server), and should automatically fire up the browser for you!
-    - you will _not_ see a build folder, it's in-memory.  If you really want to see a build folder show up, you can add `writeToDisk: true` under the `devServer` section
-    
+    - Note: uses [webpack dev server](https://webpack.js.org/configuration/dev-server)
 ## Tests
 - You can use [React Testing Library](https://testing-library.com) or a newer, better lib called [isolate-components](https://www.npmjs.com/package/isolate-components)
   - Note: Will be adding [enzyme](https://enzymejs.github.io/enzyme) examples soon
