@@ -27,11 +27,11 @@ This Kata is set up initially to stretch your skills by working with [React Hook
 *(not required during TDD)*
 
 #### See it in action 
-- Run *GraphQL Service*: `yarn start-service`
+1. Run *GraphQL Service*: `yarn start-service`
   - Don't forget about the `GraphiQL tool`, go to `http://localhost:4000/graphql`
-- Run *front-end*: `yarn start` 
+2. Run *front-end*: `yarn start` 
     - Note: uses [webpack dev server](https://webpack.js.org/configuration/dev-server)
-    - GraphQL Service ☝️ must be running
+    - GraphQL Service ☝ (step 1)️ must be running
 ## Tests
     
 **Frameworks** already setup for you: [mocha](https://mochajs.org), [chai](https://www.chaijs.com), [jest](https://jestjs.io/), and [supertest](https://github.com/visionmedia/supertest)
