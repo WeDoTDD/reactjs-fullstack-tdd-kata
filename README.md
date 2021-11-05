@@ -8,14 +8,14 @@ This Kata is set up initially to stretch your skills by working with [React Hook
 
 ## 🪛 Initial Setup
 
-`Mac`:
+#### Mac:
 - Install Homebrew (run this cmd from terminal): `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 - Install Yarn: `brew install yarn`
 
-`Windows PC`:
+#### Windows PC:
 - Install yarn somehow 🤣
 
-`Finally` (from cmd line):
+#### Finally (from cmd line):
 - **install node modules**: `yarn`
 - **Run the tests**: scripts are in `package.json`, look there
 
