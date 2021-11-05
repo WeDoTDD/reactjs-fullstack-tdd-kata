@@ -1,6 +1,6 @@
 # reactjs-fullstack-tdd-kata
 ## Description
-This Kata is set up initially to stretch your skills by working with React Hooks, GraphQL, and Test Driven Development.
+This Kata is set up initially to stretch your skills by working with [React Hooks](https://reactjs.org/docs/hooks-intro.html), [GraphQL](https://graphql.org/), and [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment).
 
 - If you prefer something other than GraphQL, well you forked it, test drive a REST service instead!
     - *you can still use [supertest](https://github.com/visionmedia/supertest) to drive outside tests for REST or other APIs*
