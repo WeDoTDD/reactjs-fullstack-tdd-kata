@@ -17,7 +17,7 @@ This Kata is set up initially to stretch your skills by working with [React Hook
 
 ### Finally (from cmd line):
 - **install node modules**: `yarn`
-- **Run the tests**: scripts are in `package.json`, look there
+- **Make sure you can run the tests**: scripts are in `package.json`, look there
 
 #### Note:
 - No, **TypeScript** is _not_ setup, this is a simple kata.  Add that setup yourself 😎
