@@ -26,7 +26,7 @@ This Kata is set up initially to stretch your skills by working with [React Hook
   - Note: Will be adding [enzyme](https://enzymejs.github.io/enzyme) examples soon
 - Testing frameworks already setup for you [mocha](https://mochajs.org), [chai](https://www.chaijs.com), and [supertest](https://github.com/visionmedia/supertest)
 
-####Other Info
+#### Other Info
 - Initial **server-side** spec for "Hello World" is directly testing the service contract
 
   - Tests are isolated & headless
