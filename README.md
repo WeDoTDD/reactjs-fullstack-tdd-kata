@@ -7,6 +7,8 @@ This Kata is set up initially to stretch your skills by working with [React Hook
 - I will be adding more to this, check out the [TODOs](https://github.com/dschinkel/reactjs-fullstack-tdd-kata/projects/1)
 
 ## 🪛 Initial Setup
+- Install Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+- Install Yarn: `brew install yarn`
 - Run `yarn` - install npm modules
 - Run *tests*: scripts are in `package.json`, look there
 
