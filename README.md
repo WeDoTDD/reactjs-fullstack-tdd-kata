@@ -22,13 +22,16 @@ This Kata is set up initially to stretch your skills by working with [React Hook
 - Run *front-end*: `yarn start` 
     - Note: uses [webpack dev server](https://webpack.js.org/configuration/dev-server)
 ## Tests
+    
+Testing frameworks already setup for you [mocha](https://mochajs.org), [chai](https://www.chaijs.com), and [supertest](https://github.com/visionmedia/supertest)
+    
+#### Client
+
 - You can use [React Testing Library](https://testing-library.com) or a newer, better lib called [isolate-components](https://www.npmjs.com/package/isolate-components)
   - Note: Will be adding [enzyme](https://enzymejs.github.io/enzyme) examples soon
-- Testing frameworks already setup for you [mocha](https://mochajs.org), [chai](https://www.chaijs.com), and [supertest](https://github.com/visionmedia/supertest)
 
-#### Other Info
+#### Server
 - Initial **server-side** spec for "Hello World" is directly testing the service contract
-
   - Tests are isolated & headless
     - So there no need to run real the thing just to write and run your tests
       - no need to run the graphQL service to run tests.
