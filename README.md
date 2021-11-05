@@ -15,8 +15,8 @@ If on a `Mac`:
 If on a `Windows PC`:
 - Install yarn somehow 🤣
 
-Finally:
-- Run `yarn` - install node modules
+Finally (from cmd line):
+- install node modules: `yarn`
 - Run *tests*: scripts are in `package.json`, look there
 
 #### Note:
