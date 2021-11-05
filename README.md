@@ -60,7 +60,7 @@ Implement the following features below.
   - Hint: You can copy the feature names below, and literally use them as your very outside test names!
 
 ### 📜 Feature Slices
-#### ~~Feature #1: Shows the text "Hello World"~~   `Done`
+#### ~~Feature #1: Shows the text "Hello World"~~   `Done for you`
 #### `Feature #2`: Shows a list of Coffee Roasters
 #### `Feature #3`: Clears Roasters
 #### `Feature #4`: Filters list by Roaster Name
