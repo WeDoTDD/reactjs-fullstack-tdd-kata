@@ -7,8 +7,8 @@
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
     "start-service": "yarn --cwd src/server start-service",
-    "test-isolateComponents-mocha": "mocha -r @babel/register src/test/client/isolate-component-mocha/**/*.spec.js -r chai/register-expect -w",
-    "test-rtl-jest": "jest src/test/client/react-testing-lib-jest/**/*.spec.js",
+    "test-isolateComponents-mocha": "mocha -r @babel/register src/test/client/isolate-components-mocha/**/*.spec.js -r chai/register-expect -w",
+    "test-rtl-jest": "jest src/test/client/react-testing-lib-jest/*.spec.js",
     "kill-port": "lsof -i :4000 -t | xargs kill && pkill node"
   },
   "repository": {

@@ -4,7 +4,7 @@
 import { expect } from "@jest/globals";
 import { render, waitFor } from "@testing-library/react";
 import React from 'react';
-import Roasters, { RoasterList } from '../../../client/react-testing-lib/views/Roasters';
+import Roasters, { RoasterList } from '../../../client/react-testing-lib-jest/views/Roasters';
 
 describe('Roasters - Hello World', () => {
 	it('shows the text "Hello World"', async () => {

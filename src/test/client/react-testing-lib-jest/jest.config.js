@@ -7,7 +7,7 @@ module.exports = {
 		'./node_modules'
 	],
 	reporters: ['jest-silent-reporter'],
-	moduleFileExtensions: ['js', 'json'],
+	moduleFileExtensions: ['js'],
 	testEnvironment: 'node',
-	testTimeout: 80000,
+	testTimeout: 2000,
 };
