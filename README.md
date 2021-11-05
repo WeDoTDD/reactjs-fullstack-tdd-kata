@@ -40,10 +40,11 @@ This Kata is set up initially to stretch your skills by working with React Hooks
 
 Implement the following full-stack features.  *If you don't like Coffee, tough luck!*
 
-#### 🖥 Technical Requirements:
-- Front-end should call the backend to get the data -OR- implement it without a backend (use test data and stubs)
-- Implement it with Test Driven Development
-- Hint: You can copy the feature names below, and literally use them as your very outside test names!
+#### 🖥 Requirements
+- You are to **implement** the **Feature Slices** below
+  - Front-end should call the backend to get the data -OR- implement it without a backend (use test data and stubs)
+  - Implement it with Test Driven Development
+  - Hint: You can copy the feature names below, and literally use them as your very outside test names!
 
 ### 📜 Feature Slices
 #### ~~Feature #1: Shows the text "Hello World"~~   *Done*
