@@ -42,8 +42,8 @@ Implement the following full-stack features.  *If you don't like Coffee, tough l
 
 #### 🖥 Requirements
 - You are to **implement** the **Feature Slices** below
-  - Front-end should call the backend to get the data -OR- implement it without a backend (use test data and stubs)
   - Implement it with Test Driven Development
+  - Front-end should call the backend to get the data -OR- implement it without a backend (use test data and stubs)
   - Hint: You can copy the feature names below, and literally use them as your very outside test names!
 
 ### 📜 Feature Slices
