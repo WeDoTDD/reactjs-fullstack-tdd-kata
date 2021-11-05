@@ -34,7 +34,7 @@ This Kata is set up initially to stretch your skills by working with [React Hook
     
 **Testing frameworks** already setup for you: [mocha](https://mochajs.org), [chai](https://www.chaijs.com), [jest](https://jestjs.io/), and [supertest](https://github.com/visionmedia/supertest)
 
-**Testing libraries** already setup for you: [React Testing Library](https://testing-library.com) already setup for you: [isolate-components](https://www.npmjs.com/package/isolate-components), [React Testing Library](https://testing-library.com), [jsdom](https://github.com/jsdom/jsdom)
+**Testing libraries** already setup for you: [React Testing Library](https://testing-library.com), [isolate-components](https://www.npmjs.com/package/isolate-components), [React Testing Library](https://testing-library.com), [jsdom](https://github.com/jsdom/jsdom)
 
 Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` partitioning
 
