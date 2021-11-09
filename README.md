@@ -51,12 +51,6 @@ Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` partitioni
     - Note: uses [webpack dev server](https://webpack.js.org/configuration/dev-server)
     - GraphQL Service ☝ (step 1)️ must be running
 🧪 ## Tests
-    
-**Frameworks** already setup for you: [mocha](https://mochajs.org), [chai](https://www.chaijs.com), [jest](https://jestjs.io/), and [supertest](https://github.com/visionmedia/supertest)
-
-**Libraries** already setup for you: [isolate-components](https://www.npmjs.com/package/isolate-components) (recommended), [React Testing Library](https://testing-library.com), [React Testing Library](https://testing-library.com), [jsdom](https://github.com/jsdom/jsdom)
-
-Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` partitioning
 
 #### Client
 
