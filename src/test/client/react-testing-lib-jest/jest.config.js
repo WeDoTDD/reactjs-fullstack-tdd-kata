@@ -9,5 +9,5 @@ module.exports = {
 	reporters: ['jest-silent-reporter'],
 	moduleFileExtensions: ['js', 'json'],
 	testEnvironment: 'node',
-	testTimeout: 4000,
+	testTimeout: 2000,
 };
