@@ -27,6 +27,23 @@ describe('Roasters - Hello World', () => {
 			roasterList = roasters.queryByTestId('roasters');
 		});
 
-		expect(roasterList).toBe();
+		expect(roasterList).toBeNull();
+	});
+});
+
+describe('Roasters List', () => {
+	it('show the list of Roasters', async () => {
+		// Arrange
+		const roasterData = [
+			'roasterOne',
+		  'roasterTwo'];
+
+		// Act
+		const roasters = render(<RoasterList />);
+
+		const count = roasters.queryAllByTestId('roaster');
+
+		// Assert
+		expect(count).toBe(2);
 	});
 });
