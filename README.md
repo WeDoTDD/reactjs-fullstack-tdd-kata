@@ -23,7 +23,7 @@ This Kata is set up initially to stretch your skills by working with [React Hook
 - No, **TypeScript** is _not_ setup, this is a simple kata.  Add that setup yourself 😎
 - **_If you're ever stuck on this Kata_**, feel free to Join the [WeDoTDD.com Slack](https://join.slack.com/t/wedotdd/shared_invite/zt-ladr0ati-rD4bNNEx_Uu1v0pZsxZDNQ) and well give you some pointers on it!
 
-## Tests
+🧪 ## Tests
 
 Testing frameworks already setup for you [mocha](https://mochajs.org), [chai](https://www.chaijs.com), and [supertest](https://github.com/visionmedia/supertest)
 
