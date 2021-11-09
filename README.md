@@ -40,7 +40,7 @@ Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` partitioni
         - So there no need to run real the thing just to write and run your tests
             - no need to run the graphQL service to run tests.
             - front-end tests do not rely on running the site or on webdriver
-            - 
+          
 ## 🏃🏻‍♀️ Run the Website (optional)
 *(not required during TDD)* 
 
