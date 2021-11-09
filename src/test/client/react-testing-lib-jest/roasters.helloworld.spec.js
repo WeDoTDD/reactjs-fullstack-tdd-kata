@@ -27,6 +27,6 @@ describe('Roasters - Hello World', () => {
 			roasterList = roasters.queryByTestId('roasters');
 		});
 
-		expect(roasterList).toBeNull();
+		expect(roasterList).toBe();
 	});
 });
