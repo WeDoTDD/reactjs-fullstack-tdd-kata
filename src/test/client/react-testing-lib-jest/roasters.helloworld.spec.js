@@ -37,11 +37,16 @@ describe('Roasters - Hello World', () => {
 describe('Roasters List', () => {
 	it('show the list of Roasters', async () => {
 		// Arrange
+		const roasterData = [
+			'roasterOne',
+		  'roasterTwo'];
 
 		// Act
 		const roasters = render(<RoasterList />);
 
+		const count = roasters.queryAllByTestId('roaster');
+
 		// Assert
-		expect(roasters);
+		expect(count).toBe(2);
 	});
 });
