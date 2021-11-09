@@ -4,7 +4,7 @@ This Kata is set up initially to stretch your skills by working with [React Hook
 
 - If you prefer something other than GraphQL, well you forked it, test drive a REST service instead!
     - *you can still use [supertest](https://github.com/visionmedia/supertest) to drive outside tests for REST or other APIs*
-- I will be adding more to this, check out the [TODOs](https://github.com/dschinkel/reactjs-fullstack-tdd-kata/projects/1)
+- I will be adding more test lib/framework support or improvements to this kata, check out the [TODOs](https://github.com/dschinkel/reactjs-fullstack-tdd-kata/projects/1)
 
 ## 🪛 Initial Setup
 
@@ -17,22 +17,44 @@ This Kata is set up initially to stretch your skills by working with [React Hook
 
 ### Finally (from cmd line):
 - **install node modules**: `yarn`
-- **Run the tests**: scripts are in `package.json`, look there
+- **Make sure you can run the tests**: scripts are in `package.json`, look there
 
 #### Note:
 - No, **TypeScript** is _not_ setup, this is a simple kata.  Add that setup yourself 😎
 - **_If you're ever stuck on this Kata_**, feel free to Join the [WeDoTDD.com Slack](https://join.slack.com/t/wedotdd/shared_invite/zt-ladr0ati-rD4bNNEx_Uu1v0pZsxZDNQ) and well give you some pointers on it!
 
-## 🏃🏻‍♀️ Run the Website
+## 🧪 Tests
+
+Testing frameworks already setup for you [mocha](https://mochajs.org), [chai](https://www.chaijs.com), and [supertest](https://github.com/visionmedia/supertest)
+
+Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` partitioning
+
+#### Client
+
+- You can use [React Testing Library](https://testing-library.com) or a newer, better lib called [isolate-components](https://www.npmjs.com/package/isolate-components)
+    - Note: Will be adding [enzyme](https://enzymejs.github.io/enzyme) examples soon
+
+#### Server
+- Initial **server-side** spec for "Hello World" is directly testing the service contract
+    - Tests are isolated & headless
+        - So there no need to run real the thing just to write and run your tests
+            - no need to run the graphQL service to run tests.
+            - front-end tests do not rely on running the site or on webdriver
+            - 
+## 🏃🏻‍♀️ Run the Website (optional)
 *(not required during TDD)*
 
 #### See it in action 
-- Run *GraphQL Service*: `yarn start service`
-- Run *front-end*: `yarn start` 
+1. Run *GraphQL Service*: `yarn start-service`
+    - Don't forget about the `GraphiQL tool`, go to `http://localhost:4000/graphql`
+2. Run *front-end*: `yarn start` 
     - Note: uses [webpack dev server](https://webpack.js.org/configuration/dev-server)
-## Tests
+    - GraphQL Service ☝ (step 1)️ must be running
+🧪 ## Tests
     
-Testing frameworks already setup for you [mocha](https://mochajs.org), [chai](https://www.chaijs.com), and [supertest](https://github.com/visionmedia/supertest)
+**Frameworks** already setup for you: [mocha](https://mochajs.org), [chai](https://www.chaijs.com), [jest](https://jestjs.io/), and [supertest](https://github.com/visionmedia/supertest)
+
+**Libraries** already setup for you: [isolate-components](https://www.npmjs.com/package/isolate-components) (recommended), [React Testing Library](https://testing-library.com), [React Testing Library](https://testing-library.com), [jsdom](https://github.com/jsdom/jsdom)
 
 Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` partitioning
 
@@ -54,7 +76,7 @@ Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` partitioni
 Implement the following features below.  
 
 #### 🖥 Requirements
-- Implement it with Test Driven Development
+- Implement it with [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment)
 - Front-end should call the backend to get the data -OR- implement it without a backend (use test data and stubs)
 - Hint: You can copy the feature names below, and literally use them as your very outside test names!
 
