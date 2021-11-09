@@ -34,6 +34,11 @@ describe('Roasters - Hello World', () => {
 
 describe('Roasters List', () => {
 	it('show the list of Roasters', async () => {
+		// Arrange
 
+		// Act
+		const roasters = render(<RoasterList />);
+
+		// Assert
 	});
 });
