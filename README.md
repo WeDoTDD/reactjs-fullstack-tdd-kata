@@ -42,7 +42,7 @@ Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` partitioni
             - front-end tests do not rely on running the site or on webdriver
             - 
 ## 🏃🏻‍♀️ Run the Website (optional)
-*(not required during TDD)*
+*(not required during TDD)* 
 
 #### See it in action 
 1. Run *GraphQL Service*: `yarn start-service`
