@@ -1,8 +1,8 @@
 /**
  * @jest-environment jsdom
  */
-import { expect } from "@jest/globals";
-import { render, waitFor } from "@testing-library/react";
+import { expect } from '@jest/globals';
+import { render, waitFor } from '@testing-library/react';
 import React from 'react';
 import Roasters, { RoasterList } from '../../../client/react-testing-lib/views/Roasters';
 
@@ -14,7 +14,7 @@ describe('Roasters - Hello World', () => {
 		let roasterList;
 		const roasters = render(<Roasters fetchRoasters={fetchRoasters} />);
 		await waitFor(() => {
-			roasterList = roasters.queryByTestId("roasters");
+			roasterList = roasters.queryByTestId('roasters');
 			expect(roasterList.innerHTML).toEqual('Hello World');
 		});
 	});
@@ -25,9 +25,15 @@ describe('Roasters - Hello World', () => {
 
 		let roasterList;
 		await waitFor(() => {
-			roasterList = roasters.queryByTestId("roasters");
+			roasterList = roasters.queryByTestId('roasters');
 		});
 
 		expect(roasterList).toBeNull();
+	});
+});
+
+describe('Roasters List', () => {
+	it('show the list of Roasters', () => {
+
 	});
 });
