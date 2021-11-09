@@ -1,12 +1,9 @@
 /**
  * @jest-environment jsdom
  */
-import { expect } from '@jest/globals';
 import { render, waitFor } from '@testing-library/react';
 import React from 'react';
 import Roasters, { RoasterList } from '../../../client/react-testing-lib-jest/views/Roasters';
-import '@testing-library/jest-dom';
-import '@testing-library/jest-dom/extend-expect';
 
 describe('Roasters - Hello World', () => {
 	it('shows the text "Hello World"', async () => {
@@ -31,22 +28,5 @@ describe('Roasters - Hello World', () => {
 		});
 
 		expect(roasterList).toBeNull();
-	});
-});
-
-describe('Roasters List', () => {
-	it('show the list of Roasters', async () => {
-		// Arrange
-		const roasterData = [
-			'roasterOne',
-		  'roasterTwo'];
-
-		// Act
-		const roasters = render(<RoasterList />);
-
-		const count = roasters.queryAllByTestId('roaster');
-
-		// Assert
-		expect(count).toBe(2);
 	});
 });
