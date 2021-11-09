@@ -58,6 +58,7 @@
     "html-webpack-plugin": "^4.3.0",
     "isolate-components": "^1.4.0",
     "jest": "^27.3.1",
+    "jest-dom": "^4.0.0",
     "jsdom": "^18.0.1",
     "jsdom-global": "^3.0.2",
     "mocha": "^8.2.1",

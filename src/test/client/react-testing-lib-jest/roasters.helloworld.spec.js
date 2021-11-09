@@ -5,6 +5,8 @@ import { expect } from '@jest/globals';
 import { render, waitFor } from '@testing-library/react';
 import React from 'react';
 import Roasters, { RoasterList } from '../../../client/react-testing-lib-jest/views/Roasters';
+import '@testing-library/jest-dom';
+import '@testing-library/jest-dom/extend-expect';
 
 describe('Roasters - Hello World', () => {
 	it('shows the text "Hello World"', async () => {
@@ -40,5 +42,6 @@ describe('Roasters List', () => {
 		const roasters = render(<RoasterList />);
 
 		// Assert
+		expect(roasters);
 	});
 });
