@@ -6,7 +6,7 @@ This Kata is set up initially to stretch your skills by working with [React Hook
     - *you can still use [supertest](https://github.com/visionmedia/supertest) to drive outside tests for REST or other APIs*
 - I will be adding more test lib/framework support or improvements to this kata, check out the [TODOs](https://github.com/dschinkel/reactjs-fullstack-tdd-kata/projects/1)
 
-## 🪛 Initial Setup
+## 🪛 Initial Setup |
 
 ### Mac:
 - Install Homebrew (run this cmd from terminal): `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
