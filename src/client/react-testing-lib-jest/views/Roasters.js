@@ -10,13 +10,11 @@ const Roasters = ({ fetchRoasters }) => {
 		})();
 	}, []);
 
-	return (<RoasterList roasters={roasters}>{roasters}</RoasterList>);
+	return <RoasterList roasters={roasters}>{roasters}</RoasterList>;
 };
 
 export function RoasterList({ roasters }) {
-	return (
-		<>{roasters && roasters.length > 0 && <span data-testid="roasters">{roasters}</span>}</>
-	);
+	return <>{roasters && roasters.length > 0 && roasters.map((roaster) => <span data-testid="roaster">{roaster}</span>)}</>;
 }
 
 export default Roasters;
