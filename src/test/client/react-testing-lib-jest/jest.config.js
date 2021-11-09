@@ -3,11 +3,11 @@ module.exports = {
 	verbose: true,
 	testRegex: '\\.(spec)\\.js$',
 	collectCoverage: false,
-	moduleDirectories:[
+	moduleDirectories: [
 		'./node_modules'
 	],
 	reporters: ['jest-silent-reporter'],
-	moduleFileExtensions: ['js'],
+	moduleFileExtensions: ['js', 'json'],
 	testEnvironment: 'node',
 	testTimeout: 2000,
 };
