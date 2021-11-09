@@ -33,7 +33,7 @@ describe('Roasters - Hello World', () => {
 });
 
 describe('Roasters List', () => {
-	it('show the list of Roasters', () => {
+	it('show the list of Roasters', async () => {
 
 	});
 });
