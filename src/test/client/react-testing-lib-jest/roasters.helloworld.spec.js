@@ -39,7 +39,7 @@ describe('Roasters List', () => {
 		  'roasterTwo'];
 
 		// Act
-		const roasters = render(<RoasterList />);
+		const roasters = render(<RoasterList fetchRoaster={roasterData}/>);
 
 		const count = roasters.queryAllByTestId('roaster');
 
