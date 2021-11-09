@@ -24,13 +24,11 @@ This Kata is set up initially to stretch your skills by working with [React Hook
 - **_If you're ever stuck on this Kata_**, feel free to Join the [WeDoTDD.com Slack](https://join.slack.com/t/wedotdd/shared_invite/zt-ladr0ati-rD4bNNEx_Uu1v0pZsxZDNQ) and well give you some pointers on it!
 
 ## 🧪 Tests
-
 Testing frameworks already setup for you [mocha](https://mochajs.org), [chai](https://www.chaijs.com), and [supertest](https://github.com/visionmedia/supertest)
 
 Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` partitioning
 
 #### Client
-
 - You can use [React Testing Library](https://testing-library.com) or a newer, better lib called [isolate-components](https://www.npmjs.com/package/isolate-components)
     - Note: Will be adding [enzyme](https://enzymejs.github.io/enzyme) examples soon
 
@@ -42,17 +40,19 @@ Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` partitioni
             - front-end tests do not rely on running the site or on webdriver
 
 #### Client
-
 - You can use [React Testing Library](https://testing-library.com) or a newer, better lib called [isolate-components](https://www.npmjs.com/package/isolate-components)
     - Note: Will be adding [enzyme](https://enzymejs.github.io/enzyme) examples soon
 
 ## 🏃🏻‍♀️ Run the Website (optional)
 *(not required during TDD)*
 
+You will need two separate terminal sessions running.  One to run graphql and one to run the website.
+
 #### See it in action 
 1. Run *GraphQL Service*: `yarn start-service`
-    - Don't forget about the `GraphiQL tool`, go to `http://localhost:4000/graphql`
+    - Don't forget about the `GraphiQL tool`: go to `http://localhost:4000/graphql`
 2. Run *front-end*: `yarn start` 
+    - then go to http://localhost:8080
     - Note: uses [webpack dev server](https://webpack.js.org/configuration/dev-server)
     - GraphQL Service ☝ (step 1)️ must be running
 🧪 ## Tests
