@@ -70,7 +70,7 @@ You will need two separate terminal sessions running.  One to run graphql and on
  
 🚨 She has stated with a strong voice, that the world will end as we know it if these features aren't out in 2 days.  She told you that you must work weekends,  "have a sense of urgency", and "do whatever it takes" or you are fired! 😱 🙀
 
-You know however, **that it's better to go well, never rush**.  And you realize that learning and applying TDD will help you along the way.
+You know however, **that for many reasons, it's better to go well, never rush**.  And you realize that learning and applying TDD will help you along the way.
 
 You are a Software Artisan who cares about producing high quality software; you are here to continually improve and practice [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment), [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882), [SOLID](https://en.wikipedia.org/wiki/SOLID), and the [4 Rules of Simple Design](https://martinfowler.com/bliki/BeckDesignRules.html).
 
