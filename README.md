@@ -61,7 +61,7 @@ You will need two separate terminal sessions running.  One to run graphql and on
 This kata entails adding features to the "Coffee Roasters Website", a place where people can find the very best roasters on the planet.
 
 #### 🖥 Requirements
-- Implement the following features below with [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment)
+- Implement the following features below using disciplined [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment)
   - Front-end should call the backend to get the data -OR- implement it without a backend (use test data and stubs and just TDD the front-end first)
 - `Hint`: You can use the feature names below as good names for your test describes
 
