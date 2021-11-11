@@ -10,7 +10,7 @@ This Kata is set up initially to stretch your skills by working with [React Hook
 
 The following is already setup for you: [mocha](https://mochajs.org), [chai](https://www.chaijs.com), [jest](https://jestjs.io/), [supertest](https://github.com/visionmedia/supertest), [React Testing Library](https://testing-library.com), [isolate-components](https://www.npmjs.com/package/isolate-components)
 
-Will be adding [enzyme](https://enzymejs.github.io/enzyme) examples soon
+(Will be adding [enzyme](https://enzymejs.github.io/enzyme) examples soon)
 
 ### Make this Kata what _you_ want
 You don't have to use what's out of the box here
