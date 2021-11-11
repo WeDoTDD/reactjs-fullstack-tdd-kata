@@ -18,14 +18,14 @@ Will be adding [enzyme](https://enzymejs.github.io/enzyme) examples soon
 
 # 🪛 Initial Setup
 
-### 💻 Mac:
+## 💻 Mac:
 - Install Homebrew (run this cmd from terminal): `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 - Install Yarn: `brew install yarn`
 
-### 💻 Windows PC:
+## 💻 Windows PC:
 - Install yarn somehow 🤣 (you're on your own)
 
-### Finally (from cmd line):
+## Finally (from cmd line):
 - Run `yarn` (install node modules)
 - **Next, be sure you can run the tests**: test scripts are in `package.json`, look there, try them
 
@@ -36,22 +36,22 @@ Will be adding [enzyme](https://enzymejs.github.io/enzyme) examples soon
 
 Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` test partitioning pattern
 
-### Client
+## Client
 - You can use [React Testing Library](https://testing-library.com) or a newer, better lib called [isolate-components](https://www.npmjs.com/package/isolate-components)
 - front-end tests **do not** rely on running the actual site (webpack)
 
-### Server
+## Server
 - Initial **server-side** spec for "Hello World" is directly testing the service contract (it is not running the GraphQL service, doesn't need to)
     - Tests are isolated & headless
         - This means to run tests, there no need to run the real service or website
 
 
-## 🏃🏻‍♀️ Run the Website (optional)
+# 🏃🏻‍♀️ Run the Website (optional)
 *(not required during TDD)*
 
 You will need two separate terminal sessions running.  One to run graphql and one to run the website.
 
-#### Perform the following steps: 
+### Perform the following steps: 
 1. Run ***GraphQL Service***: `yarn start-service`
     - Don't forget about the `GraphiQL tool`: go to `http://localhost:4000/graphql`
 2. Run ***front-end***: `yarn start` 
@@ -62,7 +62,7 @@ You will need two separate terminal sessions running.  One to run graphql and on
 # ☕️ The Kata
 😭 *If you don't like Coffee, tough luck!*
 
-### 📃 Description
+## 📃 Description
  🤦‍♀️ Charlotte, a business stakeholder has asked you to _rush_ some new to the new "Coffee Roasters Website", a place where people can find the very best roasters on the planet.  The world will end if these features aren't out in 2 days.
 
 You know however, **that it's better to go well, not rush**.  And you realize that learning TDD will help you along the way.
@@ -72,12 +72,12 @@ You are here to improve your skills with Test Driven Development and Clean Code.
 **Good Luck!**
 
 
-### 🖥 Requirements
+## 🖥 Requirements
 - Implement the following features below using disciplined [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment)
   - Front-end should call the backend to get the data -OR- implement it without a backend (use test data and stubs and just TDD the front-end first)
 - `Hint`: You can use the feature names below as good names for your test describes
 
-### 📜 Feature Slices
+## 📜 Feature Slices
 #### ~~Feature #1: Shows the text "Hello World"~~   `Done for you`
 #### `Feature #2`: Show a list of Coffee Roasters
 #### `Feature #3`: Clear Roasters
