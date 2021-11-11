@@ -11,16 +11,16 @@ This Kata is set up initially to stretch your skills by working with [React Hook
 
 ## 🪛 Initial Setup
 
-### Mac:
+### 💻 Mac:
 - Install Homebrew (run this cmd from terminal): `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 - Install Yarn: `brew install yarn`
 
-### Windows PC:
-- Install yarn somehow 🤣
+### 💻 Windows PC:
+- Install yarn somehow 🤣 (you're on your own)
 
 ### Finally (from cmd line):
-- **install node modules**: `yarn`
-- **Make sure you can run the tests**: scripts are in `package.json`, look there
+- Run `yarn` (install node modules)
+- **Next, be sure you can run the tests**: test scripts are in `package.json`, look there, try them
 
 #### Note:
 - No, **TypeScript** is _not_ setup, this is a simple kata.  Add that setup yourself 😎
