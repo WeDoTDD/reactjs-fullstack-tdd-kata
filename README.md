@@ -69,7 +69,7 @@ You will need two separate terminal sessions running.  One to run graphql and on
  
 She has stated that the world will end as we know it if these features aren't out in 2 days.
 
-You know however, **that it's better to go well, not rush**.  And you realize that learning TDD will help you along the way.
+You know however, **that it's better to go well, not rush**.  And you realize that learning and applying TDD will help you along the way.
 
 You are here to improve your skills with Test Driven Development and Clean Code.
 
