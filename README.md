@@ -93,5 +93,5 @@ You are here to improve your skills with [Test Driven Development](http://wiki.c
 - ability to select a roaster somehow to see their detail page
 - detail page should show some basic info on a couple of roasts (e.g. Dark Roast, Light Roast)
 
-### Helpful TDD & Clean Code Resources
+### 🪛 Helpful TDD & Clean Code Resources
 _Coming soon!_
