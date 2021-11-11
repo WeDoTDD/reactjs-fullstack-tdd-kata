@@ -31,19 +31,15 @@ This Kata is set up initially to stretch your skills by working with [React Hook
 
 Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` test partitioning pattern
 
-#### Client
+### Client
 - You can use [React Testing Library](https://testing-library.com) or a newer, better lib called [isolate-components](https://www.npmjs.com/package/isolate-components)
 
-#### Server
+### Server
 - Initial **server-side** spec for "Hello World" is directly testing the service contract
     - Tests are isolated & headless
         - So there no need to run real the thing just to write and run your tests
             - no need to run the graphQL service to run tests.
             - front-end tests do not rely on running the site or on webdriver
-
-#### Client
-- You can use [React Testing Library](https://testing-library.com) or a newer, better lib called [isolate-components](https://www.npmjs.com/package/isolate-components)
-    - Note: Will be adding [enzyme](https://enzymejs.github.io/enzyme) examples soon
 
 ## 🏃🏻‍♀️ Run the Website (optional)
 *(not required during TDD)*
