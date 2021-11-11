@@ -53,6 +53,7 @@ You will need two separate terminal sessions running.  One to run graphql and on
     - then go to http://localhost:8080
     - Note: uses [webpack dev server](https://webpack.js.org/configuration/dev-server)
     - GraphQL Service ☝ (step 1)️ must be running
+   
 🧪 ## Tests
 
       
