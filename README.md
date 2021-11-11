@@ -63,7 +63,7 @@ You will need two separate terminal sessions running.  One to run graphql and on
 😭 *If you don't like Coffee, tough luck!*
 
 ### 📃 Description
- 🤦‍♀️Charlotte, a business stakeholder has asked you to _rush_ some new to the new "Coffee Roasters Website", a place where people can find the very best roasters on the planet.  The world will end if these features aren't out in 2 days.
+ 🤦‍♀️ Charlotte, a business stakeholder has asked you to _rush_ some new to the new "Coffee Roasters Website", a place where people can find the very best roasters on the planet.  The world will end if these features aren't out in 2 days.
 
 🏃‍♂️You know however, **that it's better to go well, not rush**.  And you realize that learning TDD will help you along the way.
 
