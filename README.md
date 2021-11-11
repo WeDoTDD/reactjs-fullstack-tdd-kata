@@ -27,7 +27,7 @@ If you prefer something other than GraphQL, well you forked it, test drive a RES
 ## 💻 Windows PC:
 - Install yarn somehow 🤣 (you're on your own)
 
-## Finally (from cmd line):
+## Finally:
 - Run `yarn` (install node modules)
 - **Next, be sure you can run the tests**: test scripts are in `package.json`, look there, try them
 
