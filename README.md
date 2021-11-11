@@ -94,5 +94,5 @@ You are a Software Artisan who cares about producing high quality software; you 
 - ability to select a roaster somehow to see their detail page
 - detail page should show some basic info on a couple of roasts (e.g. Dark Roast, Light Roast)
 
-### 🪛 Helpful TDD & Clean Code Resources
+### 🪛 Helpful Code Resources
 _Coming soon!_
