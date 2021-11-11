@@ -63,7 +63,7 @@ You will need two separate terminal sessions running.  One to run graphql and on
 😭 *If you don't like Coffee, tough luck!*
 
 ### Description
-This kata entails adding features to the "Coffee Roasters Website", a place where people can find the very best roasters on the planet.
+You have been asked by the business to add new features to the "Coffee Roasters Website", a place where people can find the very best roasters on the planet.
 
 ### 🖥 Requirements
 - Implement the following features below using disciplined [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment)
