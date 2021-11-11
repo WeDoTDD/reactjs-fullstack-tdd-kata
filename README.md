@@ -38,7 +38,7 @@ Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` test parti
 - Initial **server-side** spec for "Hello World" is directly testing the service contract
     - Tests are isolated & headless
         - This means to run tests, there no need to run the real service or website:
-          - no need to run the graphQL service to run tests.
+          - no need to run the graphQL service to run tests
           - front-end tests do not rely on running the site or on webdriver
 
 ## 🏃🏻‍♀️ Run the Website (optional)
