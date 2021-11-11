@@ -65,7 +65,7 @@ You will need two separate terminal sessions running.  One to run graphql and on
 *If you don't like Coffee, tough luck!* 😭
 
 ## 📃 Description
- 🤦‍♀️ Charlotte, a business stakeholder has asked you to _rush_ some new features out to the new "Coffee Roasters Website", a place where people can find the very best roasters on the planet.  
+ 🤦‍♀️ Charlotte, a business stakeholder has asked you to _rush_ some new features out to the new "Coffee Roasters" website, a place where people can find the very best roasters on the planet.  
  
 She has stated that the world will end as we know it if these features aren't out in 2 days.
 
