@@ -16,7 +16,7 @@ Will be adding [enzyme](https://enzymejs.github.io/enzyme) examples soon
 ## Support
 **_If you're ever stuck on this Kata_**, feel free to **Join the [WeDoTDD.com Slack](https://join.slack.com/t/wedotdd/shared_invite/zt-ladr0ati-rD4bNNEx_Uu1v0pZsxZDNQ)** and well give you some pointers on it!
 
-# 🪛 Initial Setup
+# 🪛 Setup
 
 ## 💻 Mac:
 - Install Homebrew (run this cmd from terminal): `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
