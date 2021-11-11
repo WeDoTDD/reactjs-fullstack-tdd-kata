@@ -71,7 +71,7 @@ She has stated that the world will end as we know it if these features aren't ou
 
 You know however, **that it's better to go well, not rush**.  And you realize that learning and applying TDD will help you along the way.
 
-You are here to improve your skills with Test Driven Development and Clean Code.
+You are here to improve your skills with [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment) and [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882).
 
 ### **Good Luck!**
 
