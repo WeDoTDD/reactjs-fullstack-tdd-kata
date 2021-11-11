@@ -55,7 +55,7 @@ You will need two separate terminal sessions running.  One to run graphql and on
     - GraphQL Service ☝ (step 1)️ must be running
     
 ## ☕️ Kata
-*If you don't like Coffee, tough luck!*
+😭 *If you don't like Coffee, tough luck!*
 
 ### Description
 This kata entails adding features to the "Coffee Roasters Website", a place where people can find the very best roasters on the planet.
