@@ -54,8 +54,11 @@ You will need two separate terminal sessions running.  One to run graphql and on
     - Note: uses [webpack dev server](https://webpack.js.org/configuration/dev-server)
     - GraphQL Service ☝ (step 1)️ must be running
     
-## ☕️ Kata Requirements for "Coffee Roasters Website" 
+## ☕️ Kata
 *If you don't like Coffee, tough luck!*
+
+### Description
+This kata entails adding features to the "Coffee Roasters Website", a place where people can find the very best roasters on the planet.
 
 #### 🖥 Requirements
 - Implement the following features below with [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment)
