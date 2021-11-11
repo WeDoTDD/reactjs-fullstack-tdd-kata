@@ -13,6 +13,9 @@ Will be adding [enzyme](https://enzymejs.github.io/enzyme) examples soon
 
 ## Check out the [Roadmap here](https://github.com/dschinkel/reactjs-fullstack-tdd-kata/projects/1)
 
+## Support
+**_If you're ever stuck on this Kata_**, feel free to Join the [WeDoTDD.com Slack](https://join.slack.com/t/wedotdd/shared_invite/zt-ladr0ati-rD4bNNEx_Uu1v0pZsxZDNQ) and well give you some pointers on it!
+
 ## 🪛 Initial Setup
 
 ### 💻 Mac:
@@ -26,9 +29,7 @@ Will be adding [enzyme](https://enzymejs.github.io/enzyme) examples soon
 - Run `yarn` (install node modules)
 - **Next, be sure you can run the tests**: test scripts are in `package.json`, look there, try them
 
-#### Note:
-- No, **TypeScript** is _not_ setup, this is a simple kata.  Add that setup yourself 😎
-- **_If you're ever stuck on this Kata_**, feel free to Join the [WeDoTDD.com Slack](https://join.slack.com/t/wedotdd/shared_invite/zt-ladr0ati-rD4bNNEx_Uu1v0pZsxZDNQ) and well give you some pointers on it!
+**TypeScript** is _not_ setup, this is a simple kata.  Add that setup yourself 😎
 
 ## 🧪 Tests
 **The following is already setup for you**: [mocha](https://mochajs.org), [chai](https://www.chaijs.com), [jest](https://jestjs.io/), [supertest](https://github.com/visionmedia/supertest), [React Testing Library](https://testing-library.com), [isolate-components](https://www.npmjs.com/package/isolate-components)
