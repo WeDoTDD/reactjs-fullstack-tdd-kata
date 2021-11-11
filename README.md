@@ -60,7 +60,7 @@ You will need two separate terminal sessions running.  One to run graphql and on
     - GraphQL Service ☝ (step 1)️ must be running
     
 # ☕️ The Kata
-😭 *If you don't like Coffee, tough luck!*
+*If you don't like Coffee, tough luck!* 😭
 
 ## 📃 Description
  🤦‍♀️ Charlotte, a business stakeholder has asked you to _rush_ some new to the new "Coffee Roasters Website", a place where people can find the very best roasters on the planet.  The world will end if these features aren't out in 2 days.
