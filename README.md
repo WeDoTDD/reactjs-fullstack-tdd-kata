@@ -75,7 +75,7 @@ You are here to improve your skills with Test Driven Development and Clean Code.
 ## 🖥 Requirements
 1. Implement the following features below using disciplined [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment)
    - Front-end should call the backend to get the data -OR- implement it without a backend (use test data and stubs and just TDD the front-end first
-2. `Suggestion`: You can use the feature names below as good names for your overarching test describes
+2. `Suggestion`: use the feature names below as good names for your overarching test describes
 
 ## 📜 Feature Slices
 #### ~~Feature #1: Shows the text "Hello World"~~   `Done for you`
