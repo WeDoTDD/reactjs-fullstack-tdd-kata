@@ -72,7 +72,7 @@ She has stated that the world will end as we know it if these features aren't ou
 
 You know however, **that it's better to go well, not rush**.  And you realize that learning and applying TDD will help you along the way.
 
-As an Artisan who creates High Quality Software, you are here to continually improve and practice [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment), [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882), [SOLID](https://en.wikipedia.org/wiki/SOLID), and the [4 Rules of Simple Design](https://martinfowler.com/bliki/BeckDesignRules.html).
+You are a Software Artisan who focuses on high quality always; you are here to continually improve and practice [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment), [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882), [SOLID](https://en.wikipedia.org/wiki/SOLID), and the [4 Rules of Simple Design](https://martinfowler.com/bliki/BeckDesignRules.html).
 
 ### **Good Luck!**
 
