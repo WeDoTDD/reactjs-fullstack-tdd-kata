@@ -89,4 +89,4 @@ You are here to improve your skills with Test Driven Development and Clean Code.
 #### `Feature #7`: Go to previous paged list of roasters list
 #### `Feature #8`: Show Roaster Details
 - ability to select a roaster somehow to see their detail page
-- detail page should show a couple of roasts (e.g. Dark Roast, Light Roast)
+- detail page should show some basic info on a couple of roasts (e.g. Dark Roast, Light Roast)
