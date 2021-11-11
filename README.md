@@ -40,7 +40,7 @@ Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` test parti
 
 ## Client
 - For React Component tests, you can use [React Testing Library](https://testing-library.com) or a newer, better lib called [isolate-components](https://www.npmjs.com/package/isolate-components)
-- For lower-level micro tests, you can use [mocha](https://mochajs.org) or [jest](https://jestjs.io/)
+- For lower-level micro tests (below the components), you can use [mocha](https://mochajs.org) or [jest](https://jestjs.io/)
 - front-end tests **do not** rely on running the actual site (webpack)
 
 ## Server
