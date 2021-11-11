@@ -31,7 +31,7 @@ If you prefer something other than GraphQL, well you forked it, test drive a RES
 - Run `yarn` (install node modules)
 - **Next, be sure you can run the tests**: test scripts are in `package.json`, look there, try them
 
-**TypeScript** is _not_ setup, this is a simple kata.  Add that setup yourself 😎
+**TypeScript** is _not_ setup, this is a simple kata
 
 # 🧪 Tests
 **The following is already setup for you**: [mocha](https://mochajs.org), [chai](https://www.chaijs.com), [jest](https://jestjs.io/), [supertest](https://github.com/visionmedia/supertest), [React Testing Library](https://testing-library.com), [isolate-components](https://www.npmjs.com/package/isolate-components)
