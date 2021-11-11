@@ -46,7 +46,7 @@ Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` test parti
 
 You will need two separate terminal sessions running.  One to run graphql and one to run the website.
 
-#### To See it in action, perform the following steps: 
+#### Perform the following steps: 
 1. Run ***GraphQL Service***: `yarn start-service`
     - Don't forget about the `GraphiQL tool`: go to `http://localhost:4000/graphql`
 2. Run ***front-end***: `yarn start` 
