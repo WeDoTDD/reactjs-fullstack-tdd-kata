@@ -11,7 +11,7 @@ Will be adding [enzyme](https://enzymejs.github.io/enzyme) examples soon
   - If you prefer something other than GraphQL, well you forked it, test drive a REST service instead!
   - *you can still use [supertest](https://github.com/visionmedia/supertest) to drive outside tests for REST or other APIs*
 
-### Check out the [Roadmap here](https://github.com/dschinkel/reactjs-fullstack-tdd-kata/projects/1)
+## Check out the [Roadmap here](https://github.com/dschinkel/reactjs-fullstack-tdd-kata/projects/1)
 
 ## 🪛 Initial Setup
 
