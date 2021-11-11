@@ -1,4 +1,10 @@
 # reactjs-fullstack-tdd-kata
+
+## Check out the [Roadmap here](https://github.com/dschinkel/reactjs-fullstack-tdd-kata/projects/1)
+
+## Support
+**_If you're ever stuck on this Kata_**, feel free to **Join the [WeDoTDD.com Slack](https://join.slack.com/t/wedotdd/shared_invite/zt-ladr0ati-rD4bNNEx_Uu1v0pZsxZDNQ)** and well give you some pointers on it!
+
 # Description
 This Kata is set up initially to stretch your skills by working with [React Hooks](https://reactjs.org/docs/hooks-intro.html), [GraphQL](https://graphql.org/), and [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment).
 
@@ -11,11 +17,6 @@ You don't have to use what's out of the box here
 
 If you prefer something other than GraphQL, well you forked it, test drive a REST service instead!
   - *you can still use [supertest](https://github.com/visionmedia/supertest) to drive outside tests for REST or other APIs*
-
-## Check out the [Roadmap here](https://github.com/dschinkel/reactjs-fullstack-tdd-kata/projects/1)
-
-## Support
-**_If you're ever stuck on this Kata_**, feel free to **Join the [WeDoTDD.com Slack](https://join.slack.com/t/wedotdd/shared_invite/zt-ladr0ati-rD4bNNEx_Uu1v0pZsxZDNQ)** and well give you some pointers on it!
 
 # 🪛 Setup
 
