@@ -33,13 +33,14 @@ Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` test parti
 
 ### Client
 - You can use [React Testing Library](https://testing-library.com) or a newer, better lib called [isolate-components](https://www.npmjs.com/package/isolate-components)
+- to run front-end tests, it does not rely on running the actual site
 
 ### Server
 - Initial **server-side** spec for "Hello World" is directly testing the service contract (it is not running the GraphQL service, doesn't need to)
     - Tests are isolated & headless
         - This means to run tests, there no need to run the real service or website:
           - no need to run the graphQL service to run tests
-          - front-end tests do not rely on running the site or on webdriver
+
 
 ## 🏃🏻‍♀️ Run the Website (optional)
 *(not required during TDD)*
