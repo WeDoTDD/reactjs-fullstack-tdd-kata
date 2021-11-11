@@ -39,7 +39,8 @@ If you prefer something other than GraphQL, well you forked it, test drive a RES
 Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` test partitioning pattern
 
 ## Client
-- You can use [React Testing Library](https://testing-library.com) or a newer, better lib called [isolate-components](https://www.npmjs.com/package/isolate-components)
+- For React Component tests, you can use [React Testing Library](https://testing-library.com) or a newer, better lib called [isolate-components](https://www.npmjs.com/package/isolate-components)
+- For lower-level micro tests, you can use [mocha](https://mochajs.org) or [jest](https://jestjs.io/)
 - front-end tests **do not** rely on running the actual site (webpack)
 
 ## Server
