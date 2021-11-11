@@ -63,16 +63,16 @@ This kata entails adding features to the "Coffee Roasters Website", a place wher
 #### 🖥 Requirements
 - Implement the following features below with [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment)
   - Front-end should call the backend to get the data -OR- implement it without a backend (use test data and stubs and just TDD the front-end first)
-- Hint: You can copy the feature names below, and literally use them as your very outside test names!
+- Hint: You can use the feature names below as good names for your test describes
 
 ### 📜 Feature Slices
 #### ~~Feature #1: Shows the text "Hello World"~~   `Done for you`
-#### `Feature #2`: Shows a list of Coffee Roasters
-#### `Feature #3`: Clears Roasters
-#### `Feature #4`: Filters list by Roaster Name
-#### `Feature #5`: Shows a *paged* list of Coffee Roasters
-#### `Feature #6`: Goes to next paged list of roasters
-#### `Feature #7`: Goes to previous paged list of roasters list
-#### `Feature #8`: Shows Roaster Details
+#### `Feature #2`: Show a list of Coffee Roasters
+#### `Feature #3`: Clear Roasters
+#### `Feature #4`: Filter list by Roaster Name
+#### `Feature #5`: Show a *paged* list of Coffee Roasters
+#### `Feature #6`: Go to next paged list of roasters
+#### `Feature #7`: Go to previous paged list of roasters list
+#### `Feature #8`: Show Roaster Details
 - ability to select a roaster somehow to see their detail page
 - detail page should show a couple of roasts (e.g. Dark Roast, Light Roast)
