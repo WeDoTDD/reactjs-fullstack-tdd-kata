@@ -62,7 +62,7 @@ You will need two separate terminal sessions running.  One to run graphql and on
 ## ☕️ The Kata
 😭 *If you don't like Coffee, tough luck!*
 
-### Description
+### 📃 Description
 #### You have been asked by the business to add new features to the "Coffee Roasters Website", a place where people can find the very best roasters on the planet.
 
 ### 🖥 Requirements
