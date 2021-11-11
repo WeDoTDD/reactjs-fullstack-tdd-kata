@@ -79,7 +79,7 @@ You are here to improve your skills with [Test Driven Development](http://wiki.c
 
 ## 🖥 Requirements
 1. Implement the following features below using disciplined [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment)
-   - Front-end should call the backend to get the data **-OR-** implement the front-end without a backend first (use test data and [stubs](https://martinfowler.com/articles/mocksArentStubs.html)
+   - Front-end should call the backend to get the data **-OR-** implement the front-end without a backend first (use test data and [stubs])(https://martinfowler.com/articles/mocksArentStubs.html)
 2. `Suggestion`: use the feature names below as good names for your overarching test describes
 
 ## 📜 Feature Slices
