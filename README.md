@@ -78,7 +78,7 @@ You are here to improve your skills with Test Driven Development and Clean Code.
 2. `Suggestion`: use the feature names below as good names for your overarching test describes
 
 ## 📜 Feature Slices
-#### ~~Feature #1: Shows the text "Hello World"~~   `Done for you`
+#### ~~Feature #1: Show "Hello World"~~   `Done for you`
 #### `Feature #2`: Show a list of Coffee Roasters
 #### `Feature #3`: Clear Roasters
 #### `Feature #4`: Filter list by Roaster Name
