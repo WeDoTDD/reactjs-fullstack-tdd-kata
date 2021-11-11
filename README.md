@@ -74,7 +74,7 @@ You know however, **that for many reasons, it's better to go well, never rush**.
 
 You are a Software Artisan who cares about producing high quality software; you are here to continually improve and practice [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment), [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882), [SOLID](https://en.wikipedia.org/wiki/SOLID), and the [4 Rules of Simple Design](https://martinfowler.com/bliki/BeckDesignRules.html).
 
-### **Relax, get some coffee, have fun and Good Luck!**
+### **So relax, get some coffee, have fun and Good Luck!**
 
 
 ## 🖥 Requirements
