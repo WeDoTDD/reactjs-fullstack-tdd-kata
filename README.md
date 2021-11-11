@@ -2,6 +2,8 @@
 ## Description
 This Kata is set up initially to stretch your skills by working with [React Hooks](https://reactjs.org/docs/hooks-intro.html), [GraphQL](https://graphql.org/), and [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment).
 
+**The following is already setup for you**: [mocha](https://mochajs.org), [chai](https://www.chaijs.com), [jest](https://jestjs.io/), [supertest](https://github.com/visionmedia/supertest), [React Testing Library](https://testing-library.com), [isolate-components](https://www.npmjs.com/package/isolate-components)
+
 ### Make this Kata what _you_ want
 - You don't have to use what's out of the box here
   - If you prefer something other than GraphQL, well you forked it, test drive a REST service instead!
