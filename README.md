@@ -68,7 +68,7 @@ You will need two separate terminal sessions running.  One to run graphql and on
 ## 📃 Description
  🤦‍♀️ It's the typical sprint: Charlotte, a business stakeholder has asked you once again to _rush_ some new features out to the new "Coffee Roasters" website, a place where people can find the very best roasters on the planet.  
  
-🚨 She has stated with a strong voice, that the world will end as we know it if these features aren't out in 2 days.  She told you that you must work weekends,  "have a sense of urgency", and "do whatever it takes" or you are fired! 😱 🙀
+🚨 She has stated with a strong voice, that "We are Agile" which means the world will end as we know it if these features aren't out in 2 days.  She told you that you must work weekends,  "have a sense of urgency", and "do whatever it takes" or you are fired! 😱 🙀
 
 You know however, **that for many reasons, it's better to go well, never rush**.  And you realize that learning and applying TDD will help you along the way.
 
