@@ -62,7 +62,7 @@ This kata entails adding features to the "Coffee Roasters Website", a place wher
 
 #### 🖥 Requirements
 - Implement the following features below with [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment)
-  - Front-end should call the backend to get the data -OR- implement it without a backend (use test data and stubs)
+  - Front-end should call the backend to get the data -OR- implement it without a backend (use test data and stubs and just TDD the front-end first)
 - Hint: You can copy the feature names below, and literally use them as your very outside test names!
 
 ### 📜 Feature Slices
