@@ -57,8 +57,7 @@ You will need two separate terminal sessions running.  One to run graphql and on
 ### Perform the following steps: 
 1. Run ***GraphQL Service***: `yarn start-service`
     - Don't forget about the `GraphiQL tool`: go to [http://localhost:4000/graphql](http://localhost:4000/graphql)
-2. Run ***front-end***: `yarn start` 
-    - then go to http://localhost:8080
+2. Run ***front-end***: `yarn start`, then go to http://localhost:8080
     - Note: uses [webpack dev server](https://webpack.js.org/configuration/dev-server)
     - GraphQL Service ☝ (step 1)️ must be running
     
