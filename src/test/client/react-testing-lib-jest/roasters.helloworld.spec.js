@@ -30,3 +30,35 @@ describe('Roasters - Hello World', () => {
 		expect(roasterList).toBeNull();
 	});
 });
+
+describe('Show a list of Coffee Roasters', () => {
+	
+			it('', () => {
+				const fetchRoasters = async () => null;
+				const roasters = render(<RoasterList getRoasters={fetchRoasters} />);
+
+				let roasterList;
+				await waitFor(() => {
+					roasterList = roasters.queryByTestId("roasters");
+				});
+
+				expect(roasterList).toBeNull();
+		});
+			
+			it('', () => {
+			    
+			});
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
