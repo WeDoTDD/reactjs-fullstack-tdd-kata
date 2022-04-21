@@ -45,27 +45,17 @@ describe('Show a list of Coffee Roasters', () => {
 	});
 			
 	it('shows one roaster ', async () => {
-		//arrange
+		// arrange
+		const roastersData = { roasters: 'First Roaster' };
 		const fetchRoaster = async () => null;
 
-		//act
-		const roaster = render(<RoasterList getRoasters={fetchRoaster} />);
-
-		//assert
-
-
+		// act
+		let roasterList;
+		const roaster = render(<Roasters fetchRoasters={fetchRoasters} />);
+		// assert
+		await waitFor(() => {
+			roasterList = roaster.queryByTestId('roasters');
+			expect(roasterList.innerHTML).toEqual('First Roaster');
+		});
 	});
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
