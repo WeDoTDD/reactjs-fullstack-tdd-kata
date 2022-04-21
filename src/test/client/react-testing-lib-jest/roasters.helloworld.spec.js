@@ -46,8 +46,8 @@ describe('Show a list of Coffee Roasters', () => {
 			
 	it('shows one roaster ', async () => {
 		// arrange
-		const roastersData = { roasters: 'First Roaster' };
-		const fetchRoaster = async () => null;
+		const roasterData = { roasters: 'First Roaster' };
+		const fetchRoasters = async () => roasterData;
 
 		// act
 		let roasterList;
