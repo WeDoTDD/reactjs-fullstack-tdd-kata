@@ -33,7 +33,7 @@ describe('Roasters - Hello World', () => {
 
 describe('Show a list of Coffee Roasters', () => {
 	
-			it('', () => {
+			it('shows no roasters when none exist', async () => {
 				const fetchRoasters = async () => null;
 				const roasters = render(<RoasterList getRoasters={fetchRoasters} />);
 
@@ -45,7 +45,7 @@ describe('Show a list of Coffee Roasters', () => {
 				expect(roasterList).toBeNull();
 		});
 			
-			it('', () => {
+			it('shows one roaster ', ()  => {
 			    
 			});
 });
