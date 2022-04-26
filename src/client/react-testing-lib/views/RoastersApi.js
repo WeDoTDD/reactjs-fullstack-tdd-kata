@@ -3,14 +3,15 @@ import request from 'superagent';
 const url = 'http://localhost:4000/graphql';
 
 export async function fetchRoasters() {
-	const query = {
-		query: `query { 
-				roasters
-			}`,
-	};
-
-	const response = await sendRequest(query);
-	return response.body.data;
+	// const query = {
+	// 	query: `query {
+	// 			roasters
+	// 		}`,
+	// };
+	//
+	// const response = await sendRequest(query);
+	// return response.body.data;
+	return {roasters:'First Roaster'};
 }
 
 
