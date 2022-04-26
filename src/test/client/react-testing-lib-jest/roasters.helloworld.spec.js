@@ -32,10 +32,16 @@ describe('Show a list of Coffee Roasters', () => {
 		});
 	});
 
-	it('shows many roasters', function () {
-		const roasters = ['roasterOne', 'roasterTwo'];
-		const fetchRoasters = async () => roasters;
+	it('shows many roasters', async () => {
+		const manyRoasters = ['roasterOne', 'roasterTwo'];
+		const fetchRoasters = async () => manyRoasters;
 
+		let roasterList;
 		const roaster = render(<Roasters fetchRoasters={fetchRoasters} />);
+
+		await waitFor( () => {
+			roasterList = roaster.queryByTestId('roasters');
+			expect(roasterList.innerHTML).toEqual(manyRoasters);
+		});
 	});
 });
