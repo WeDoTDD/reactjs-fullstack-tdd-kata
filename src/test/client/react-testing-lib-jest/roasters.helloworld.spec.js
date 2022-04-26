@@ -32,7 +32,8 @@ describe('Show a list of Coffee Roasters', () => {
 		});
 	});
 
-	it('show list of roasters', function () {
-
+	it('shows many roasters', function () {
+		const roasters = 'Roasters';
+		roasterData.roasters
 	});
 });
