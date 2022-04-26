@@ -31,4 +31,8 @@ describe('Show a list of Coffee Roasters', () => {
 			expect(roasterList.innerHTML).toEqual(firstRoaster);
 		});
 	});
+
+	it('show list of roasters', function () {
+
+	});
 });
