@@ -33,7 +33,9 @@ describe('Show a list of Coffee Roasters', () => {
 	});
 
 	it('shows many roasters', function () {
-		const roasters = 'Roasters';
-		roasterData.roasters
+		const roasters = ['roasterOne', 'roasterTwo'];
+		const fetchRoasters = async () => roasters;
+
+		const roaster = render(<Roasters fetchRoasters={fetchRoasters} />);
 	});
 });
