@@ -19,9 +19,8 @@ describe('Show a list of Coffee Roasters', () => {
 	});
 			
 	it('shows one roaster ', async () => {
-
 		const firstRoaster = 'First Roaster';
-		const roasterData = { roasters: 'First Roaster' };
+		const roasterData = { roasters: firstRoaster };
 		const fetchRoasters = async () => roasterData;
 
 		let roasterList;
@@ -29,7 +28,7 @@ describe('Show a list of Coffee Roasters', () => {
 
 		await waitFor(() => {
 			roasterList = roaster.queryByTestId('roasters');
-			expect(roasterList.innerHTML).toEqual('First Roaster');
+			expect(roasterList.innerHTML).toEqual(firstRoaster);
 		});
 	});
 });
