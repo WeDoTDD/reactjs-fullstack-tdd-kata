@@ -81,7 +81,7 @@ tests using **[isolate-react](https://www.npmjs.com/package/isolate-react)** + *
 
 tests using **[React Testing Library](https://testing-library.com)** + **[jest](https://jestjs.io)**: `yarn test-rtl-jest`
 
-tests that use **[React Testing Library](https://testing-library.com)** + **[mocha](https://mochajs.org)** + **[chai](https://www.chaijs.com)**: _comming soon_
+tests using **[React Testing Library](https://testing-library.com)** + **[mocha](https://mochajs.org)** + **[chai](https://www.chaijs.com)**: _comming soon_
 
 ## Server Tests
 - Initial **server-side** spec for "Hello World" is directly testing the service contract (it is not running the GraphQL service, doesn't need to)
