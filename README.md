@@ -60,8 +60,6 @@ If you are a pair or mob working on this kata.
 - Run `yarn` (install node modules)
 - **Next, be sure you can run the tests**: test scripts are in `package.json`, look there, try them
 
-**TypeScript** is _not_ setup, this is a simple kata
-
 # 🧪 Tests
 **The following frameworks and libs are already setup for you and ready to go**: [mocha](https://mochajs.org), [chai](https://www.chaijs.com), [jest](https://jestjs.io/), [supertest](https://github.com/visionmedia/supertest), [React Testing Library](https://testing-library.com), [isolate-components](https://www.npmjs.com/package/isolate-components)
 
