@@ -101,9 +101,10 @@ You are a Software Artisan who cares about producing high quality software; you 
 ## 🖥 TDD Tips
 While doing this kata, keep these in mind:
 
-`Suggestion`: use the feature names below as good names for your overarching test describes
-
-`Suggestion`: keep your tests `super small`.  One feature will require `more than just one test` to implement that feature
+- Use the feature names below as good names for your overarching test describes
+- Keep your tests `super small`
+- One feature will require `more than just one test` to implement that feature
+- Write tests that drive behavior for both `happy` and `sad` paths
 
 ## 📜 Feature Slices
 You are to implement the following with TDD:
