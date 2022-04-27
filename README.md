@@ -1,6 +1,6 @@
 # reactjs-fullstack-tdd-kata
 
-This kata is meant for _anyone_ out there in the world who wants to try it.
+This kata is meant for **_anyone_** out there in the world who wants to try it.
 
 Take your time to read this.  Don't skim it.
 
@@ -12,7 +12,7 @@ Take your time to read this.  Don't skim it.
 # Description
 This Kata is set up initially to stretch your skills by working with [React Hooks](https://reactjs.org/docs/hooks-intro.html), [GraphQL](https://graphql.org/), and [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment).
 
-The following is already setup for you: [mocha](https://mochajs.org), [chai](https://www.chaijs.com), [jest](https://jestjs.io/), [supertest](https://github.com/visionmedia/supertest), [React Testing Library](https://testing-library.com), [isolate-components](https://www.npmjs.com/package/isolate-components)
+The following is already setup for you: [mocha](https://mochajs.org), [chai](https://www.chaijs.com), [jest](https://jestjs.io), [supertest](https://github.com/visionmedia/supertest), [React Testing Library](https://testing-library.com), [isolate-components](https://www.npmjs.com/package/isolate-components)
 
 (Will be adding [enzyme](https://enzymejs.github.io/enzyme) examples soon)
 
@@ -31,8 +31,8 @@ Either way, you can still use the [supertest](https://github.com/visionmedia/sup
 **TypeScript** is _not_ setup, this is a simple kata
 
 ## 💻 Mac:
-- Install **Homebrew** 
-  - run this cmd from terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+- Install **Homebrew**
+  - run this cmd: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 - Install **NodeJS**: `brew install node`
 - Install **Yarn**: `brew install yarn`
 
@@ -58,6 +58,8 @@ If you are a pair or mob working on this kata and need to push changes up to thi
 
 # 🧪 Tests
 **The following frameworks and libs are already setup for you and ready to go**: [mocha](https://mochajs.org), [chai](https://www.chaijs.com), [jest](https://jestjs.io/), [supertest](https://github.com/visionmedia/supertest), [React Testing Library](https://testing-library.com), [isolate-components](https://www.npmjs.com/package/isolate-components)
+
+Looking at the config of these libs or frameworks will help you understand how to set these up for your own projects.
 
 Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` test partitioning pattern
 
@@ -134,4 +136,22 @@ You are to implement the following with TDD:
 - detail page should show some basic info on a couple of roasts (e.g. Dark Roast, Light Roast)
 
 ### 🪛 Helpful Code Resources
-_Coming soon!_
+
+#### Tools
+- [Mocha](https://mochajs.or)
+- [Chai](https://www.chaijs.com)
+- [Jest](https://jestjs.io)
+- [isolate-react](https://www.npmjs.com/package/isolate-react) - a newer, leaner, simpler, faster React testing lib
+- [React Testing Library](https://testing-library.com)
+- [Enzyme](https://enzymejs.github.io/enzyme)
+- [GraphQL](https://graphql.org)
+- [ExpressJS](https://expressjs.com)
+- [Koa](https://stackshare.io/koa):  highly recommended over ExpressJS, written by [TJ Holowaychuk](https://github.com/tj), the guy who wrote ExpressJS.  He wrote this to be better.
+
+#### Books
+- [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+- [Test Driven Development: By Exmaple](https://www.amazon.com/Test-Driven-Development-Kent-Beck-ebook/dp/B095SQ9WP4)
+- [Refactoring: Improving the Design of Existing Code (2nd Edition)](https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599)
+
+#### Vids
+- [TDD TV](https://www.youtube.com/channel/UCiRBjSlxIlt5URzgHSGhHQA)
