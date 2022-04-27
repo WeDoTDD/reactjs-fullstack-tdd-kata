@@ -22,6 +22,8 @@ If you prefer something other than GraphQL, well you forked it, test drive a RES
 
 # 🪛 Setup
 
+**TypeScript** is _not_ setup, this is a simple kata
+
 ## 💻 Mac:
 - Install Homebrew (run this cmd from terminal): `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 - Install Yarn: `brew install yarn`
