@@ -135,13 +135,14 @@ While doing this kata, keep these in mind:
 ### `Feature #2`: Show a list of Coffee Roasters
 ### `Feature #3`: Clear Roasters
 ### `Feature #4`: Show Roaster Details
+- ability to select a roaster somehow to see their detail page
+- detail page should show some basic info on a couple of roasts (e.g. Dark Roast, Light Roast)
 ### `Feature #5`: Filter list by Roaster Name
 ### `Feature #6`: Show a *paged* list of Coffee Roasters
 ### `Feature #7`: Go to next paged list of roasters
 ### `Feature #8`: Go to previous paged list of roasters list
 
-- ability to select a roaster somehow to see their detail page
-- detail page should show some basic info on a couple of roasts (e.g. Dark Roast, Light Roast)
+
 
 ### 🪛 Helpful Code Resources
 
