@@ -107,7 +107,7 @@ While doing this kata, keep these in mind:
 
 ## 📜 Feature Slices
 You are to implement the following with TDD:
-g
+
 #### ~~Feature #1: Show "Hello World"~~   `Done for you`
 #### `Feature #2`: Show a list of Coffee Roasters
 #### `Feature #3`: Clear Roasters
