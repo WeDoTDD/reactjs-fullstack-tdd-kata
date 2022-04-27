@@ -2,6 +2,8 @@
 
 This kata is meant for _anyone_ out there in the world who wants to try it.
 
+Take your time to read this.  Don't skim it.
+
 ### Check out the [Roadmap here](https://github.com/dschinkel/reactjs-fullstack-tdd-kata/projects/1)
 
 ## Support
