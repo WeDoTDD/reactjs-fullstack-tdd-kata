@@ -19,7 +19,7 @@ The following is already setup for you: [mocha](https://mochajs.org), [chai](htt
 ## Make this Kata what _you_ want
 You don't have to use what's out of the box here.  This kata is setup initially with a few nice things such as a GraphQL service to serve data to the client.
 
-#### Don't want GraphQL for server-side? No Problem!
+### Don't want GraphQL for server-side? No Problem!
 Well you forked it or created your own branch! So you're not stuck with GraphQL.  It's easy enough to do what you want in here...then just do it!  That's part of learning.
 
 **ExpressJS** is already installed, so TDD a REST service or whatever you want!
