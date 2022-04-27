@@ -144,7 +144,7 @@ While doing this kata, keep these in mind:
 
 
 
-### 🪛 Helpful Code Resources
+## 🪛 Helpful Code Resources
 
 #### Tools
 - [Mocha](https://mochajs.or)
