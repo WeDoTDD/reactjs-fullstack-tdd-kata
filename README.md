@@ -1,5 +1,7 @@
 # reactjs-fullstack-tdd-kata
 
+This kata is meant for _anyone_ out there in the world who wants to try it.
+
 ## Check out the [Roadmap here](https://github.com/dschinkel/reactjs-fullstack-tdd-kata/projects/1)
 
 ## Support
@@ -43,18 +45,29 @@ If you are a pair or mob working on this kata and need to push changes up to thi
 **TypeScript** is _not_ setup, this is a simple kata
 
 # 🧪 Tests
-**The following is already setup for you**: [mocha](https://mochajs.org), [chai](https://www.chaijs.com), [jest](https://jestjs.io/), [supertest](https://github.com/visionmedia/supertest), [React Testing Library](https://testing-library.com), [isolate-components](https://www.npmjs.com/package/isolate-components)
+**The following frameworks and libs are already setup for you and ready to go**: [mocha](https://mochajs.org), [chai](https://www.chaijs.com), [jest](https://jestjs.io/), [supertest](https://github.com/visionmedia/supertest), [React Testing Library](https://testing-library.com), [isolate-components](https://www.npmjs.com/package/isolate-components)
 
 Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` test partitioning pattern
 
-## Client
-- For React Component tests, you can use [React Testing Library](https://testing-library.com) or a newer, better lib called [isolate-components](https://www.npmjs.com/package/isolate-components)
+### Client Tests
+- For React Component tests, you can use [React Testing Library](https://testing-library.com) or a newer, better lib called [isolate-react](https://www.npmjs.com/package/isolate-react) coupled with either [jest](https://jestjs.io/) or [mocha](https://mochajs.org)
 - For lower-level micro tests (below the components), you can use plain [mocha](https://mochajs.org) or [jest](https://jestjs.io/)
-- front-end tests **do not** rely on running the actual site (webpack)
+- these tests _**do not**_ rely on running the actual site (webpack)
 
-## Server
+#### Running
+Depending on what test libs, frameworks you chose that are already setup for you, you'd run one of the following:
+
+tests that use **isolate-react + mocha**: `yarn test-isolateComponents-mocha`
+
+tests that use **isolate-react + jest**: _coming soon_
+
+tests that use React Testing Libary + Jest: `yarn test-rtl-jest`
+
+tests that use React Testing Libary + mocha: _comming soon_
+
+### Server Tests
 - Initial **server-side** spec for "Hello World" is directly testing the service contract (it is not running the GraphQL service, doesn't need to)
-    - Tests are isolated & headless; to run tests, there is no need to run the real service or website
+    - Example server-side tests provided are isolated & headless; to run tests, _there is no need to run the real service or website_
 
 # 🏃🏻‍♀️ Run the Website (optional)
 You will need two separate terminal sessions running.  One to run graphql and one to run the website.
@@ -83,7 +96,7 @@ You are a Software Artisan who cares about producing high quality software; you 
 
 ## 🖥 Requirements
 1. **Implement the [following features](#feature-slices) below** using disciplined [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment)
-   - Front-end should call the backend to get the data **-OR-** implement the front-end without a real backend first (use test data and [stubs](https://martinfowler.com/articles/mocksArentStubs.html) to provide that data)
+   - Front-end should call the backend to get the data **-OR-** implement the front-end without a real backend first (use test data and [stubs](https://martinfowler.com/articles/mocksArentStubs.html) to provide data to the front-end (client))
 
 ## 🖥 TDD Tips
 While doing this kata, keep these in mind:
