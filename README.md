@@ -1,4 +1,4 @@
-# reactjs-fullstack-tdd-kata
+# 🔴🟢🔵 reactjs-fullstack-tdd-kata
 
 This kata is meant for **_anyone_** out there in the world who wants to try it.
 
