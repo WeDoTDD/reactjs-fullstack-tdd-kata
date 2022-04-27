@@ -131,7 +131,7 @@ While doing this kata, keep these in mind:
 
 ### Implement the following features with TDD:
 
-### ~~Feature #1~~ : Show "Hello World"  `Done for you`
+### `Feature #1` : Show "Hello World" : _Already Done for you, see example in repo_
 ### `Feature #2`: Show a list of Coffee Roasters
 ### `Feature #3`: Clear Roasters
 ### `Feature #4`: Show Roaster Details
