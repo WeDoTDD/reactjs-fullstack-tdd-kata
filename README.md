@@ -14,7 +14,7 @@ The following is already setup for you: [mocha](https://mochajs.org), [chai](htt
 
 (Will be adding [enzyme](https://enzymejs.github.io/enzyme) examples soon)
 
-### Make this Kata what _you_ want
+## Make this Kata what _you_ want
 You don't have to use what's out of the box here
 
 If you prefer something other than GraphQL, well you forked it, test drive a REST service instead!
