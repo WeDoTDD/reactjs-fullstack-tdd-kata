@@ -67,12 +67,12 @@ Looking at the config of these libs or frameworks will help you understand how t
 
 Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` test partitioning pattern
 
-### Client Tests
+## Client Tests
 - For React Component tests, you can use [React Testing Library](https://testing-library.com) or a newer, better lib called [isolate-react](https://www.npmjs.com/package/isolate-react) coupled with either [jest](https://jestjs.io/) or [mocha](https://mochajs.org)
 - For lower-level micro tests (below the components), you can use plain [mocha](https://mochajs.org) or [jest](https://jestjs.io/)
 - these tests _**do not**_ rely on running the actual site (webpack)
 
-#### Running
+### Running
 Depending on what test libs, frameworks you chose that are already setup for you, you'd run one of the following:
 
 tests that use **isolate-react + mocha**: `yarn test-isolateComponents-mocha`
@@ -83,9 +83,13 @@ tests that use React Testing Libary + Jest: `yarn test-rtl-jest`
 
 tests that use React Testing Libary + mocha: _comming soon_
 
-### Server Tests
+## Server Tests
 - Initial **server-side** spec for "Hello World" is directly testing the service contract (it is not running the GraphQL service, doesn't need to)
     - Example server-side tests provided are isolated & headless; to run tests, _there is no need to run the real service or website_
+
+### Running
+
+`yarn test-server`
 
 # 🏃🏻‍♀️ Run the Website (optional)
 You will need two separate terminal sessions running.  One to run graphql and one to run the website.
