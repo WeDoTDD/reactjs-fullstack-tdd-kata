@@ -27,6 +27,15 @@ If you prefer something other than GraphQL, well you forked it, test drive a RES
 ## 💻 Windows PC:
 - Install yarn somehow 🤣 (you're on your own)
 
+## Groups working on this Kata
+If you are a pair or mob working on this kata and need to push changes up to this repo for collaboration, please do the following:
+
+**`Do not commit changes to main/master`. Instead:**
+
+  - First DM Dave Schinkel in [WeDoTDD Slack](https://join.slack.com/t/wedotdd/shared_invite/zt-oh1gskuq-pNYBUOH4ySSdXyP9FfoP8g) OR [add an issue into this Repo](https://github.com/WeDoTDD/reactjs-fullstack-tdd-kata/issues) asking for access. Provide github handles of everyone who will be working on the kata form your group so that Dave can add you all as collaborators to this repo.  
+    - This will allow your group to create your own feature branch to work off of
+  - Create a `new branch` for your `team/group/mob/whatever` and name it what you like.  **Then work off that branch together**
+
 ## Finally:
 - Run `yarn` (install node modules)
 - **Next, be sure you can run the tests**: test scripts are in `package.json`, look there, try them
@@ -47,7 +56,6 @@ Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` test parti
 - Initial **server-side** spec for "Hello World" is directly testing the service contract (it is not running the GraphQL service, doesn't need to)
     - Tests are isolated & headless; to run tests, there is no need to run the real service or website
 
-
 # 🏃🏻‍♀️ Run the Website (optional)
 *(not required during TDD)*
 
@@ -56,7 +64,7 @@ You will need two separate terminal sessions running.  One to run graphql and on
 ### Perform the following steps: 
 1. Run ***GraphQL Service***: `yarn start-service`
     - Don't forget about the `GraphiQL tool`: go to [http://localhost:4000/graphql](http://localhost:4000/graphql)
-2. Run ***front-end***: `yarn start`, then go to http://localhost:8080
+2. Run ***front-end***: `yarn start`, then go to [http://localhost:8080](http://localhost:8080)
     - Note: uses [webpack dev server](https://webpack.js.org/configuration/dev-server)
     - GraphQL Service ☝ (step 1)️ must be running
     
