@@ -69,19 +69,19 @@ Out-of-box test cases demonstrate the `Arrange` / `Act` / `Assert` test partitio
 
 ## Client Tests
 - For React Component tests, you can use [React Testing Library](https://testing-library.com) or a newer, better lib called [isolate-react](https://www.npmjs.com/package/isolate-react) coupled with either [jest](https://jestjs.io/) or [mocha](https://mochajs.org)
-- For lower-level micro tests (below the components), you can use plain [mocha](https://mochajs.org) or [jest](https://jestjs.io/)
+- For lower-level micro tests (below the components), you can use plain [mocha](https://mochajs.org) or [jest](https://jestjs.io)
 - these tests _**do not**_ rely on running the actual site (webpack)
 
 ### Running
 Depending on what test libs, frameworks you chose that are already setup for you, you'd run one of the following:
 
-tests that use **isolate-react + mocha**: `yarn test-isolateComponents-mocha`
+tests using **[isolate-react](https://www.npmjs.com/package/isolate-react)** + **[mocha](https://mochajs.org)** + **[chai](https://www.chaijs.com)**: `yarn test-isolateComponents-mocha`
 
-tests that use **isolate-react + jest**: _coming soon_
+tests using **[isolate-react](https://www.npmjs.com/package/isolate-react)** + **[jest](https://jestjs.io)**: _coming soon_
 
-tests that use React Testing Libary + Jest: `yarn test-rtl-jest`
+tests using **[React Testing Library](https://testing-library.com)** + **[jest](https://jestjs.io)**: `yarn test-rtl-jest`
 
-tests that use React Testing Libary + mocha: _comming soon_
+tests that use **[React Testing Library](https://testing-library.com)** + **[mocha](https://mochajs.org)** + **[chai](https://www.chaijs.com)**: _comming soon_
 
 ## Server Tests
 - Initial **server-side** spec for "Hello World" is directly testing the service contract (it is not running the GraphQL service, doesn't need to)
