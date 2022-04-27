@@ -29,7 +29,7 @@ If you prefer something other than GraphQL, well you forked it, test drive a RES
 - Install Yarn: `brew install yarn`
 
 ## 💻 Windows PC:
-- Install yarn somehow 🤣 (you're on your own)
+- Install yarn
 
 ## Groups working on this Kata
 If you are a pair or mob working on this kata and need to push changes up to this repo for collaboration, please do the following:
