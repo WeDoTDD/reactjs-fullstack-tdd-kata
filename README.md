@@ -126,7 +126,9 @@ While doing this kata, keep these in mind:
 - One feature should end up in `more than just one test` written to implement that feature
 - Write tests that drive behavior for both `happy` and `sad` paths
 
-## 📜 Feature Slices
+## 📜 COFFEE ROASTER FEATURES
+![beans](https://media.giphy.com/media/Z5u8xhW468oqUuAYQj/giphy-downsized-large.gif)
+
 You are to implement the following with TDD:
 
 #### ~~Feature #1: Show "Hello World"~~   `Done for you`
