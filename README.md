@@ -84,9 +84,14 @@ You are a Software Artisan who cares about producing high quality software; you 
 ## 🖥 Requirements
 1. Implement the following features below using disciplined [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment)
    - Front-end should call the backend to get the data **-OR-** implement the front-end without a real backend first (use test data and [stubs](https://martinfowler.com/articles/mocksArentStubs.html) to provide that data)
-2. `Suggestion`: use the feature names below as good names for your overarching test describes
-3. `Suggestion`: keep your tests `super small`.  One feature will require `more than just one test` to implement that feature
-4. 
+
+## 🖥 TDD Tips
+While doing this kata, keep these in mind:
+
+`Suggestion`: use the feature names below as good names for your overarching test describes
+
+`Suggestion`: keep your tests `super small`.  One feature will require `more than just one test` to implement that feature
+
 ## 📜 Feature Slices
 #### ~~Feature #1: Show "Hello World"~~   `Done for you`
 #### `Feature #2`: Show a list of Coffee Roasters
