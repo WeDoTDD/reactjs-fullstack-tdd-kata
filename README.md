@@ -47,7 +47,7 @@ Either way, you can still use the [supertest](https://github.com/visionmedia/sup
 `Fork` this repo instead, then work on your own fork.
 
 ## Groups working on this Kata
-If you are a pair or mob working on this kata and need to push changes up to this repo for collaboration, please do the following:
+If you are a pair or mob working on this kata.
 
 **`Do not commit changes to main/master`. Instead:**
 
