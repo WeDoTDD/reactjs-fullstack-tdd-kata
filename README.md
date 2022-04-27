@@ -106,6 +106,8 @@ While doing this kata, keep these in mind:
 `Suggestion`: keep your tests `super small`.  One feature will require `more than just one test` to implement that feature
 
 ## 📜 Feature Slices
+You are to implement the following with TDD:
+g
 #### ~~Feature #1: Show "Hello World"~~   `Done for you`
 #### `Feature #2`: Show a list of Coffee Roasters
 #### `Feature #3`: Clear Roasters
