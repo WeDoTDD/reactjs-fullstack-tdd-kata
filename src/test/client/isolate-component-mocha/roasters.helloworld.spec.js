@@ -5,12 +5,15 @@ import React from 'react';
 
 describe('Roasters', () => {
 	it('shows no roasters', async () => {
+		// Arrange / Given
 		const fetchRoasters = async () => null;
 
+		// Act / When
 		const roasters = isolateComponent(<RoasterList getRoasters={fetchRoasters} />);
 		await Promise.resolve();
 		const roasterList = roasters.exists('[data-test-id=roasters]');
 
+		// Assert / Then
 		expect(roasterList).to.be.false;
 	});
 

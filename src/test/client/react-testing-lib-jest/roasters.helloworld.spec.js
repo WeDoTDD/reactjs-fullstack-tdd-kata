@@ -7,14 +7,17 @@ import Roasters, { RoasterList } from '../../../client/react-testing-lib/views/R
 
 describe('Roasters', () => {
 	it('shows no roasters', async () => {
+		// Arrange / Given
 		const fetchRoasters = async () => null;
 		const roasters = render(<RoasterList getRoasters={fetchRoasters} />);
 
+		// Act / When
 		let roasterList;
 		await waitFor(() => {
 			roasterList = roasters.queryByTestId("roasters");
 		});
 
+		// Assert / Then
 		expect(roasterList).toBeNull();
 	});
 
