@@ -14,7 +14,7 @@ describe('Roasters', () => {
 		// Act / When
 		let roasterList;
 		await waitFor(() => {
-			roasterList = roasters.queryByTestId("roasters");
+			roasterList = roasters.queryByTestId('roasters');
 		});
 
 		// Assert / Then
@@ -28,7 +28,7 @@ describe('Roasters', () => {
 		let roasterList;
 		const roasters = render(<Roasters fetchRoasters={fetchRoasters} />);
 		await waitFor(() => {
-			roasterList = roasters.queryByTestId("roasters");
+			roasterList = roasters.queryByTestId('roasters');
 			expect(roasterList.innerHTML).toEqual('Hello World');
 		});
 	});
