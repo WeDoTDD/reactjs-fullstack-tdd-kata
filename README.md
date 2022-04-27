@@ -129,9 +129,14 @@ While doing this kata, keep these in mind:
 ## 📜 COFFEE ROASTER FEATURES
 ![beans](src/assets/coffee-beans.gif)
 
-### Implement the following features with TDD:
+## Implement the following features with TDD:
 
-### `Feature #1` : Show "Hello World" : _Already Done for you, see example in repo_
+## These are done for you (see examples in repo)
+### `Feature #0` (degenerate case): No Roasters
+### `Feature #1`: Show "Hello World"
+
+## Finish the rest:
+Remember: **small** tests; and each feature should result in **several** small tests
 ### `Feature #2`: Show a list of Coffee Roasters
 ### `Feature #3`: Clear Roasters
 ### `Feature #4`: Show Roaster Details
@@ -141,8 +146,6 @@ While doing this kata, keep these in mind:
 ### `Feature #6`: Show a *paged* list of Coffee Roasters
 ### `Feature #7`: Go to next paged list of roasters
 ### `Feature #8`: Go to previous paged list of roasters list
-
-
 
 ## 🪛 Helpful Code Resources
 
