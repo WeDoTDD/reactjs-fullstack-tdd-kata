@@ -41,13 +41,19 @@ Either way, you can still use the [supertest](https://github.com/visionmedia/sup
 - Install **Yarn**
   - `npm install --global yarn`
 
+## Individuals working on this Kata
+Do not commit to this repo's main/master branch
+
+`Fork` this repo instead, then work on your own fork.
+
 ## Groups working on this Kata
 If you are a pair or mob working on this kata and need to push changes up to this repo for collaboration, please do the following:
 
 **`Do not commit changes to main/master`. Instead:**
 
-  - First DM Dave Schinkel in [WeDoTDD Slack](https://join.slack.com/t/wedotdd/shared_invite/zt-oh1gskuq-pNYBUOH4ySSdXyP9FfoP8g) OR [add an issue into this Repo](https://github.com/WeDoTDD/reactjs-fullstack-tdd-kata/issues) asking for access. Provide github handles of everyone who will be working on the kata form your group so that Dave can add you all as collaborators to this repo.  
-    - This will allow your group to create your own feature branch to work off of
+  - First DM Dave Schinkel in [WeDoTDD Slack](https://join.slack.com/t/wedotdd/shared_invite/zt-oh1gskuq-pNYBUOH4ySSdXyP9FfoP8g) OR [add an issue into this Repo](https://github.com/WeDoTDD/reactjs-fullstack-tdd-kata/issues) asking for access
+    - then, provide github handles of everyone who will be working on the kata from your group so that Dave can add your github accounts as collaborators to this repo
+      - This will allow your group to create your own feature branch to work off of
   - Create a `new branch` for your `team/group/mob/whatever` and name it what you like.  **Then work off that branch together**
 
 ## Finally:
