@@ -129,7 +129,7 @@ While doing this kata, keep these in mind:
 ## 📜 COFFEE ROASTER FEATURES
 ![beans](src/assets/coffee-beans.gif)
 
-You are to implement the following with TDD:
+### Implement the following features with TDD:
 
 #### ~~Feature #1: Show "Hello World"~~   `Done for you`
 #### `Feature #2`: Show a list of Coffee Roasters
