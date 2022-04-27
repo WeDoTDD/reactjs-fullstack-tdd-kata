@@ -65,7 +65,7 @@ If you are a pair or mob working on this kata.
 
 Looking at the config of these libs or frameworks will help you understand how to set these up for your own projects.
 
-Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` test partitioning pattern
+Out-of-box test cases demonstrate the `Arrange` / `Act` / `Assert` test partitioning pattern
 
 ## Client Tests
 - For React Component tests, you can use [React Testing Library](https://testing-library.com) or a newer, better lib called [isolate-react](https://www.npmjs.com/package/isolate-react) coupled with either [jest](https://jestjs.io/) or [mocha](https://mochajs.org)
