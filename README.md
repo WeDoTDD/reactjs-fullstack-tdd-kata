@@ -127,7 +127,7 @@ While doing this kata, keep these in mind:
 - Write tests that drive behavior for both `happy` and `sad` paths
 
 ## 📜 COFFEE ROASTER FEATURES
-![beans](https://media.giphy.com/media/Z5u8xhW468oqUuAYQj/giphy-downsized-large.gif)
+![beans](src/assets/giphy-downsized-large.gif)
 
 You are to implement the following with TDD:
 
