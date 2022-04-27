@@ -102,7 +102,7 @@ You are a Software Artisan who cares about producing high quality software; you 
 While doing this kata, keep these in mind:
 
 - Use the feature names below as good names for your overarching test describes
-- Keep your tests `super small`
+- Keep your tests `super small` in scope
 - One feature will require `more than just one test` to implement that feature
 - Write tests that drive behavior for both `happy` and `sad` paths
 
