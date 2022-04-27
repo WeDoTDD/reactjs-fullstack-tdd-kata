@@ -57,8 +57,6 @@ Out-of-box Hello World tests demonstrate `Arrange` / `Act` / `Assert` test parti
     - Tests are isolated & headless; to run tests, there is no need to run the real service or website
 
 # 🏃🏻‍♀️ Run the Website (optional)
-*(not required during TDD)*
-
 You will need two separate terminal sessions running.  One to run graphql and one to run the website.
 
 ### Perform the following steps: 
@@ -92,11 +90,12 @@ You are a Software Artisan who cares about producing high quality software; you 
 #### ~~Feature #1: Show "Hello World"~~   `Done for you`
 #### `Feature #2`: Show a list of Coffee Roasters
 #### `Feature #3`: Clear Roasters
-#### `Feature #4`: Filter list by Roaster Name
-#### `Feature #5`: Show a *paged* list of Coffee Roasters
-#### `Feature #6`: Go to next paged list of roasters
-#### `Feature #7`: Go to previous paged list of roasters list
-#### `Feature #8`: Show Roaster Details
+#### `Feature #4`: Show Roaster Details
+#### `Feature #5`: Filter list by Roaster Name
+#### `Feature #6`: Show a *paged* list of Coffee Roasters
+#### `Feature #7`: Go to next paged list of roasters
+#### `Feature #8`: Go to previous paged list of roasters list
+
 - ability to select a roaster somehow to see their detail page
 - detail page should show some basic info on a couple of roasts (e.g. Dark Roast, Light Roast)
 
