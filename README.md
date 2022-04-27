@@ -72,7 +72,7 @@ Out-of-box test cases demonstrate the `Arrange` / `Act` / `Assert` test partitio
 - For lower-level micro tests (below the components), you can use plain [mocha](https://mochajs.org) or [jest](https://jestjs.io)
 - these tests _**do not**_ rely on running the actual site (webpack)
 
-Add your tests under the folder named via framework / lib you want to use.
+❗️**NOTE:** in this repo, add your tests under the folder named with framework / lib you want to use.
 
 ### Running
 Depending on what test libs, frameworks you chose that are already setup for you, you'd run one of the following:
