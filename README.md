@@ -102,8 +102,8 @@ You are a Software Artisan who cares about producing high quality software; you 
 While doing this kata, keep these in mind:
 
 - Use the feature names below as good names for your overarching test describes
-- Keep your tests `super small` in behavioral scope
-- One feature will require `more than just one test` to implement that feature
+- Keep each test you write for a feature `super small` in behavioral scope
+- One feature should end up in `more than just one test` written to implement that feature
 - Write tests that drive behavior for both `happy` and `sad` paths
 
 ## 📜 Feature Slices
