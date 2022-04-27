@@ -42,7 +42,7 @@ Either way, you can still use the [supertest](https://github.com/visionmedia/sup
   - `npm install --global yarn`
 
 ## Individuals working on this Kata
-Do not commit to this repo's main/master branch
+**`Do not commit changes to main/master`. Instead:**
 
 `Fork` this repo instead, then work on your own fork.
 
