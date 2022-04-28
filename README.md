@@ -159,7 +159,10 @@ Remember: **small** tests; and each feature should result in **several** small t
 ### `Feature #8`: Go to previous paged list of roasters list
 
 ## 🪛 Helpful Code Resources
-
+#### Sites
+**[WeDoTDD.com](https://WeDoTDD.com)** - companies, teams, software crafters, and coaches who TDD
+#### Vids
+- [TDD TV](https://www.youtube.com/channel/UCiRBjSlxIlt5URzgHSGhHQA)
 #### Tools
 - [Mocha](https://mochajs.or)
 - [Chai](https://www.chaijs.com)
@@ -176,5 +179,4 @@ Remember: **small** tests; and each feature should result in **several** small t
 - [Test Driven Development: By Exmaple](https://www.amazon.com/Test-Driven-Development-Kent-Beck-ebook/dp/B095SQ9WP4)
 - [Refactoring: Improving the Design of Existing Code (2nd Edition)](https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599)
 
-#### Vids
-- [TDD TV](https://www.youtube.com/channel/UCiRBjSlxIlt5URzgHSGhHQA)
+
