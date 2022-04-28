@@ -17,7 +17,7 @@ describe('Roasters', () => {
 		expect(roasterList).to.be.false;
 	});
 
-	it('shows the text "Hello World"', async () => {
+	it('shows title', async () => {
 		const roastersData = { roasters: 'Hello World' };
 		const fetchRoasters = async () => roastersData;
 
