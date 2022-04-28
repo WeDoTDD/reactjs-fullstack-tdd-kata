@@ -107,7 +107,7 @@ You will need two separate terminal sessions running.  One to run graphql and on
 *If you don't like Coffee, tough luck!* 😭
 
 ## 📃 Description
- 🤦‍♀️ It's the typical sprint: Charlotte, a business stakeholder has asked you once again to _rush_ some new features out to the new "Coffee Roasters" website, a place where people can find the very best roasters on the planet.  
+ 🤦‍♀️ It's the typical sprint: The sky is falling, and Charlotte, a business stakeholder has asked you once again to _rush_ 🚑 some new features out to the new "Coffee Roasters" website, a place where people can find the very best roasters on the planet.  
  
 🚨 She has stated with a strong voice, that "We are Agile" which means the world will end as we know it if these features aren't out in 2 days.  She told you that "this should be easy", that you must work weekends,  that you must "have a sense of urgency", and "do whatever it takes" or you are fired! 😱 🙀 🖕
 
