@@ -169,7 +169,7 @@ Remember: **small** tests; and each feature should result in **several** small t
 - [Enzyme](https://enzymejs.github.io/enzyme)
 - [GraphQL](https://graphql.org)
 - [ExpressJS](https://expressjs.com)
-- [Koa](https://stackshare.io/koa):  highly recommended over ExpressJS, written by [TJ Holowaychuk](https://github.com/tj), the guy who wrote ExpressJS.  He wrote this to be better.
+- [Koa](https://stackshare.io/koa):  highly recommended over ExpressJS, written by [TJ Holowaychuk](https://github.com/tj), the guy who wrote ExpressJS.  He wrote this to be an improvement over ExpressJS.
 
 #### Books
 - [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
