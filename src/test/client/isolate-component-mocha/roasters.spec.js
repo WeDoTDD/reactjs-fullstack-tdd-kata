@@ -1,7 +1,7 @@
 import { expect } from 'chai';
-import { isolateComponent } from 'isolate-components';
 import Roasters, { RoasterList } from '../../../client/isolate-component/views/Roasters';
 import React from 'react';
+import { isolateComponent } from 'isolate-react';
 
 describe('Roasters', () => {
 	it('shows no roasters', async () => {

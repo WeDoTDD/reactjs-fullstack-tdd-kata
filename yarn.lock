@@ -5300,17 +5300,10 @@ isobject@^3.0.1:
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
 
-isolate-components@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/isolate-components/-/isolate-components-1.4.1.tgz#cb09773651c4347272301003d4ab788c40fac0e6"
-  integrity sha512-omhkgWHxX7GLcshPzdgTZ0XBJlxAHWAZ3cjM98E7z1G+ELBmaHgJ6E3UDKa2923wII2TvBvU4+HhDTyddN4ytw==
-  dependencies:
-    isolate-hooks "^1.5.0"
-
-isolate-hooks@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/isolate-hooks/-/isolate-hooks-1.5.0.tgz#232d98ea3fb6393210a72965d67f4218e1efed59"
-  integrity sha512-IRGJvwngCuWr1FadRpI9L4V2HS+vR2pUK6O3hcNBlk3Mk/zM6VytSfV8Rpcb3/duxJHy+JUVHW7Yk4BPK4FrVA==
+isolate-react@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/isolate-react/-/isolate-react-2.1.0.tgz#b18cf3e2b1f8fad06614a7158a8da1bc50f28ec2"
+  integrity sha512-aFxKcKuwXQcCXwMAD1EC2aep1p7ukPBgTjb4TRqOUE3fWJFh8CqvH0F9zX4TCS/qOkQkAiOvV/yLi3STZb857Q==
 
 istanbul-lib-coverage@^3.0.0, istanbul-lib-coverage@^3.2.0:
   version "3.2.0"
