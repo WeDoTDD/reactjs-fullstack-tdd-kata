@@ -111,7 +111,7 @@ You will need two separate terminal sessions running.  One to run graphql and on
 
 🌩 The sky is falling, and John 🙆‍♂️, a business stakeholder who is very close to obtaining his next career promotion, has asked you once again to _rush_ 🚑 some new features out to the new "Coffee Roasters" website, a place where people can find the very best roasters on the planet.  
  
-🚨 He has stated with a strong voice, that "We are Agile" which means the world will end as we know it if these features aren't out in 2 days.  Agile says you should be able to deliver things fast, and that fast is all that counts.
+🚨 He has stated with a strong voice, that "We are Agile" which means the world will end as we know it if these features aren't out in 2 days.  John says Agile says you should be able to deliver things fast, and that fast is all that counts.
 
 He told you he expects "this should be easy", but if you must, please work weekends, that you must "have a sense of urgency", and expect "do whatever it takes team player attitude" or you are fired! 😱 🙀 🖕.  On top of that, he expects no bugs to be found.
 
