@@ -5324,10 +5324,10 @@ isobject@^3.0.1:
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
 
-isolate-components@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/isolate-components/-/isolate-components-1.4.0.tgz#324082d596f8224b8e027b1b94a46fa13471ab57"
-  integrity sha512-kO99YeQIXZyDwR8wn45M7zFvuKVxCOl71cqCCwZ9Xzx0Ff33d3Mgd7jghkv5KpoBuBt6KkPUcubJczlC+G3+cQ==
+isolate-components@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/isolate-components/-/isolate-components-1.4.1.tgz#cb09773651c4347272301003d4ab788c40fac0e6"
+  integrity sha512-omhkgWHxX7GLcshPzdgTZ0XBJlxAHWAZ3cjM98E7z1G+ELBmaHgJ6E3UDKa2923wII2TvBvU4+HhDTyddN4ytw==
   dependencies:
     isolate-hooks "^1.5.0"
 
