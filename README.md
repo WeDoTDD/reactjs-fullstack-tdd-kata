@@ -113,7 +113,7 @@ You will need two separate terminal sessions running.  One to run graphql and on
  
 🚨 She has stated with a strong voice, that "We are Agile" which means the world will end as we know it if these features aren't out in 2 days.  Agile says you should be able to deliver things fast, and that fast is all that counts.
 
-She told you that "this should be easy", but if you must, please work weekends, that you must "have a sense of urgency", and expect "do whatever it takes team player attitude" or you are fired! 😱 🙀 🖕
+She told you she expects "this should be easy", but if you must, please work weekends, that you must "have a sense of urgency", and expect "do whatever it takes team player attitude" or you are fired! 😱 🙀 🖕.  On top of that, she expects no bugs.
 
 🔴🟢🔵 You know however, **that for many reasons, it's better to go well, never rush**.  And you realize that learning and applying TDD will help you along the way.
 
