@@ -115,10 +115,13 @@ You will need two separate terminal sessions running.  One to run graphql and on
 
 He told you he expects "this should be easy", but if you must, please work weekends, that you must "have a sense of urgency", and expect "do whatever it takes team player attitude" or you are fired! 😱 🙀 🖕.  On top of that, he expects no bugs to be found.
 
-🔴🟢🔵 You know however, **that for many reasons, it's better to go well, never rush**.  And you realize that learning and applying TDD will help you along the way.
+🔴🟢🔵 
+
+You know however, **that for many reasons, it's better to go well, never rush**.  And you realize that learning and applying TDD will help you along the way.
 
 🔨 You are a Software Artisan who cares about producing high quality software; you are here to continually improve and practice [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment), [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882), [SOLID](https://en.wikipedia.org/wiki/SOLID), and the [4 Rules of Simple Design](https://martinfowler.com/bliki/BeckDesignRules.html).
 
+🔴🟢🔵
 ### **So relax, get some coffee, have fun and Good Luck!**
 
 
