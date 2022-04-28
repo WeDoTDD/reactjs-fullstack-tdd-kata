@@ -129,7 +129,7 @@ You know however, **that for many reasons, it's better to go well, never rush**.
 
 
 ## 🖥 Requirements
-1. **Implement the [following features](#feature-slices) below** using disciplined [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment)
+1. **Implement the [following features](#-coffee-roaster-features) below** using disciplined [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment)
    - Front-end should call the backend to get the data **-OR-** implement the front-end without a real backend first (use test data and [stubs](https://martinfowler.com/articles/mocksArentStubs.html) to provide data to the front-end (client))
 
 ## 🖥 TDD Tips
