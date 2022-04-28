@@ -132,11 +132,11 @@ You know however, **that for many reasons, it's better to go well, never rush**.
 
 **Implement the [following features](#-coffee-roaster-features) below** using disciplined [Test Driven Development](http://wiki.c2.com/?TestDrivenDevelopment)
 
-**Option #1:** Front-end should call the backend to get the data
+**`Option #1`:** Front-end should call the backend to get the data
 
 **-OR-** 
 
-**Option #2:** implement the front-end without a real backend first (use test data and [stubs](https://martinfowler.com/articles/mocksArentStubs.html) to provide data to the front-end
+**`Option #2`:** implement the front-end without a real backend first (use test data and [stubs](https://martinfowler.com/articles/mocksArentStubs.html) to provide data to the front-end
 
 ## 🖥 TDD Tips
 While doing this kata, keep these in mind:
