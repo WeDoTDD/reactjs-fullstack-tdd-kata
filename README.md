@@ -30,6 +30,8 @@ Either way, you can still use the [supertest](https://github.com/visionmedia/sup
 
 ## Individuals working on this Kata
 **`Do not commit changes to main/master`. Instead:**
+1) If you do not have a github account, create one using your personal email
+2) Create a [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) to enable you to use as a password for github command-line (pushes, clones, etc)
 
 `Fork` this repo instead, then work on your own fork.
 
