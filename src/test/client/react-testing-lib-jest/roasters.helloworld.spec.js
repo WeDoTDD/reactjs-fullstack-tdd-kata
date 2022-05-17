@@ -20,7 +20,7 @@ describe('Show a list of Coffee Roasters', () => {
 
 	it('shows many roasters', async () => {
 		const manyRoasters = {
-			roasters: ['roasterOne', 'roasterTwo', 'roasterThree']
+			roasters: ['roasterOne', 'roasterTwo', 'roasterThree', 'roasterFour']
 		};
 		const fetchRoasters = async () => manyRoasters;
 
