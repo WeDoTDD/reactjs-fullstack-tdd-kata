@@ -6,7 +6,6 @@ import React from 'react';
 import Roasters, { RoasterList } from '../../../client/react-testing-lib/views/Roasters';
 
 describe('Show a list of Coffee Roasters', () => {
-	
 	it('shows no roasters when none exist', async () => {
 		const fetchRoasters = async () => null;
 		const roasters = render(<RoasterList getRoasters={fetchRoasters} />);
@@ -26,10 +25,10 @@ describe('Show a list of Coffee Roasters', () => {
 		const fetchRoasters = async () => manyRoasters;
 
 		let roasterList;
-		const roaster = render(<Roasters fetchRoasters={fetchRoasters} />);
+		const roasters = render(<Roasters fetchRoasters={fetchRoasters} />);
 
 		await waitFor(() => {
-			roasterList = roaster.queryAllByTestId('roaster');
+			roasterList = roasters.queryAllByTestId('roaster');
 			expect(roasterList.length).toEqual(manyRoasters.roasters.length);
 		});
 	});
