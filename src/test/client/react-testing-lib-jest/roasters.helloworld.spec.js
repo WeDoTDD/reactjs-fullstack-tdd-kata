@@ -43,8 +43,7 @@ describe('Show a list of Coffee Roasters', () => {
 
 		await waitFor(() => {
 			roasterList = roaster.queryByTestId('roasters');
-			expect(roaster.fetchRoasters.to.equal(manyRoasters));
-			expect(roasterList.innerHTML).toEqual(manyRoasters);
+			expect(roasterList.toString()).toEqual(manyRoasters.roasters);
 		});
 	});
 });
