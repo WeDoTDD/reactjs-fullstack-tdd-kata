@@ -145,7 +145,9 @@ While doing this kata, keep these in mind:
 - Use the feature names below as good names for your overarching test describes
 - Keep each test you write for a feature `super small` in behavioral scope
 - One feature should end up in `more than just one test` written to implement that feature
+  - If you're ending up with just one test, it means you're not taking small enough steps during your TDD workflow
 - Write tests that drive behavior for both `happy` and `sad` paths
+- 
 
 ## 📜 COFFEE ROASTER FEATURES
 ![beans](src/assets/coffee-beans.gif)
