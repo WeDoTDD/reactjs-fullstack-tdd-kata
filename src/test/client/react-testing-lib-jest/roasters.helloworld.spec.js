@@ -12,7 +12,7 @@ describe('Show a list of Coffee Roasters', () => {
 
 		let roasterList;
 		await waitFor(() => {
-			roasterList = roasters.queryByTestId('roasters');
+			roasterList = roasters.queryByTestId('roaster');
 		});
 
 		expect(roasterList).toBeNull();
@@ -27,7 +27,7 @@ describe('Show a list of Coffee Roasters', () => {
 		const roaster = render(<Roasters fetchRoasters={fetchRoasters} />);
 
 		await waitFor(() => {
-			roasterList = roaster.queryByTestId('roasters');
+			roasterList = roaster.queryAllByTestId('roaster');
 			expect(roasterList.innerHTML).toEqual(firstRoaster);
 		});
 	});
