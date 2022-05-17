@@ -13,12 +13,16 @@ const Roasters = ({ fetchRoasters }) => {
 	return (<RoasterList roasters={roasters}>{roasters}</RoasterList>);
 };
 
+function Roaster(index, roaster) {
+	return <li data-testid="roaster" key={index}>{roaster}</li>;
+}
+
 export function RoasterList({ roasters }) {
 	return (
 		<>{roasters && roasters.length > 0 && (
 			<ul>
 				{ roasters.map((roaster, index) =>
-					<li data-testid="roaster" key={index}>{roaster}</li>
+					Roaster(index, roaster)
 				)}
 			</ul>
 		)}
