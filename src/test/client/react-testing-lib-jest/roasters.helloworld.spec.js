@@ -49,7 +49,7 @@ describe('Clear Roasters', () => {
 
 		await waitFor(() => {
 			roasterList = roasters.queryAllByTestId('roaster');
-			expect(roasterList.innerHTML).toEqual(manyRoasters.roasters);
+			expect(roasterList.length).toBe(manyRoasters.roasters.length);
 		});
 	});
 });
