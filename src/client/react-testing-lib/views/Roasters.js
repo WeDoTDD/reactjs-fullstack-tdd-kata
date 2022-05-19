@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import * as PropTypes from "prop-types";
 
 const Roasters = ({ fetchRoasters }) => {
 	const [roasters, setRoasters] = useState();
@@ -13,16 +14,18 @@ const Roasters = ({ fetchRoasters }) => {
 	return (<RoasterList roasters={roasters}>{roasters}</RoasterList>);
 };
 
-function Roaster(index, roaster) {
-	return <li data-testid="roaster" key={index}>{roaster}</li>;
+function Roaster(props) {
+	return <li data-testid="roaster">{props.roaster}</li>;
 }
+
+Roaster.propTypes = {roaster: PropTypes.any};
 
 export function RoasterList({ roasters }) {
 	return (
 		<>{roasters && roasters.length > 0 && (
 			<ul>
 				{ roasters.map((roaster, index) =>
-					Roaster(index, roaster)
+					<Roaster key={index} roaster={roaster}/>
 				)}
 			</ul>
 		)}
