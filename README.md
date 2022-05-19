@@ -82,7 +82,7 @@ You are a Software Artisan who cares about producing high quality software; you 
 
 ## 📜 Feature Slices
 #### ~~Feature #1: Show "Hello World"~~   `Done for you`
-#### `Feature #2`: Show a list of Coffee Roasters
+~~#### `Feature #2`: Show a list of Coffee Roasters~~
 #### `Feature #3`: Clear Roasters
 #### `Feature #4`: Filter list by Roaster Name
 #### `Feature #5`: Show a *paged* list of Coffee Roasters
