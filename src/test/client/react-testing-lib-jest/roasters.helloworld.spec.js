@@ -45,5 +45,6 @@ describe('Clear Roasters', () => {
 		const roasters = render(<Roasters fetchRoasters={fetchRoasters} />);
 		
 		// assert
+		expect(roasterList.length).toEqual(manyRoasters.roasters.length);
 	});
 });
