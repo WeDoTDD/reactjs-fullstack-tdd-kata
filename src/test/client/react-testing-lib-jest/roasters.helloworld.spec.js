@@ -36,11 +36,14 @@ describe('Show a list of Coffee Roasters', () => {
 
 describe('Clear Roasters', () => {
 	it('clears roasters', () => {
-		// arrange
-		
-		// act
+		const manyRoasters = {
+			roasters: ['roasterOne', 'roasterTwo', 'roasterThree', 'roasterFour']
+		};
+		const fetchRoasters = async () => manyRoasters;
+
+		let roasterList;
+		const roasters = render(<Roasters fetchRoasters={fetchRoasters} />);
 		
 		// assert
-
 	});
 });
