@@ -42,12 +42,11 @@ describe('Clear Roasters', () => {
 		const fetchRoasters = async () => manyRoasters;
 
 		let roasterList;
-		const roasters = render(<Roasters fetchRoasters={fetchRoasters}/>);
+		const roasters = render(<Roasters fetchRoasters={fetchRoasters} />);
 
 		await waitFor(() => {
-			roasterList = roasters.queryAllByTestId('roaster')
-			expect(roasterList.length).toEqual(0);
-		})
-
+			roasterList = roasters.queryAllByTestId('roaster');
+			expect(roasterList.innerHTML).toEqual(manyRoasters.roasters);
+		});
 	});
 });
