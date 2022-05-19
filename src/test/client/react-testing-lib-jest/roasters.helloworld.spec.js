@@ -46,7 +46,7 @@ describe('Clear Roasters', () => {
 
 		await waitFor(() => {
 			roasterList = roasters.queryAllByTestId('roaster')
-			expect().toEqual();
+			expect(roasterList.length).toEqual(0);
 		})
 
 	});
