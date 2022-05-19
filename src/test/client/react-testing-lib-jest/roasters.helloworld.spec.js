@@ -34,6 +34,13 @@ describe('Show a list of Coffee Roasters', () => {
 	});
 });
 
-describe(‘’, () => {
-  
+describe('Clear Roasters', () => {
+	it('clears roasters', () => {
+		// arrange
+		
+		// act
+		
+		// assert
+
+	});
 });
