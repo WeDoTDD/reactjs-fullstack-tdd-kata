@@ -43,6 +43,9 @@ describe('Clear Roasters', () => {
 
 		let roasterList;
 		const roasters = render(<Roasters fetchRoasters={fetchRoasters} />);
+		const remove = (manyRoasters) => {
+			const roasters = data.filter()
+		}
 
 		await waitFor(() => {
 			roasterList = roasters.queryAllByTestId('roaster');
