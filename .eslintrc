@@ -30,6 +30,7 @@
 			"no-process-exit": [2],
 			"no-useless-call": [2],
 			"react/no-danger": [0],
+            "react/jsx-no-useless-fragment": [0],
 			"react/jsx-indent-props": [0],
 			"react/jsx-filename-extension": [0, {"extensions": [".jsx"]}],
 			"react/jsx-indent": [0],

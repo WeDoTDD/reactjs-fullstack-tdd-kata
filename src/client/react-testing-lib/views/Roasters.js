@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import * as PropTypes from "prop-types";
+import * as PropTypes from 'prop-types';
 
-const Roasters = ({ fetchRoasters }) => {
+function Roasters({ fetchRoasters }) {
 	const [roasters, setRoasters] = useState();
 
 	useEffect(() => {
@@ -12,23 +12,22 @@ const Roasters = ({ fetchRoasters }) => {
 	}, []);
 
 	return (<RoasterList roasters={roasters}>{roasters}</RoasterList>);
-};
-
-function Roaster(props) {
-	return <li data-testid="roaster">{props.roaster}</li>;
 }
 
-Roaster.propTypes = {roaster: PropTypes.any};
+function Roaster(roaster) {
+	return <li data-testid="roaster">{roaster.roaster}</li>;
+}
 
 export function RoasterList({ roasters }) {
 	return (
-		<>{roasters && roasters.length > 0 && (
-			<ul>
-				{ roasters.map((roaster, index) =>
-					<Roaster key={index} roaster={roaster}/>
-				)}
-			</ul>
-		)}
+		<>
+			{roasters && roasters.length > 0 && (
+				<ul>
+					{roasters.map((roaster, index) =>
+						<Roaster key={index} roaster={roaster} />,
+					)}
+				</ul>
+			)}
 		</>
 	);
 }
