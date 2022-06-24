@@ -1,6 +1,6 @@
 # 🔴🟢🔵 reactjs-fullstack-tdd-kata
 
-A Kata was created by maker of **[WeDoTDD.com](https://WeDoTDD.com)**: lists companies, teams, software crafters, and coaches who TDD
+This Kata was created by maker of **[WeDoTDD.com](https://WeDoTDD.com)**: lists companies, teams, software crafters, and coaches who TDD
 
 This kata is meant for **_anyone_** out there in the world who wants to try it.
 
